@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1694.0, 100.0, 1660.0, 983.0 ],
+		"rect" : [ 215.0, 87.0, 1660.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,48 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "looppoints_secs",
+					"displaymode" : 4,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-15",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 320.0, 1019.5, 134.0, 46.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 666.233496154972386, 599.877478065565128, 134.0, 46.0 ],
+					"text_width" : 71.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "looppoints_secs",
+					"displaymode" : 4,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-3",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 206.666016000000013, -8.625, 134.0, 46.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.769525083446467, 123.618750214576721, 134.0, 46.0 ],
+					"text_width" : 71.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-261",
 					"maxclass" : "toggle",
@@ -5056,7 +5098,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "__black", ",", "__bodies", ",", "__cmen", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy" ],
+									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "sammus" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5138,7 +5180,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "__eyeblink.mov", ",", "__mouth_open_scream.mp4", ",", "_lips_shorter.mov", ",", "girl_top_half_face.mp4", ",", "neck.mp4" ],
+									"items" : [ "02_YurIOnIce.mp4", ",", "04_DanceOfSwords.mp4", ",", "05_ConnieAndSteven.mp4", ",", "06_IkenfellTrailer.mp4", ",", "08_AnimalCrossingMovie.mp4", ",", "10_LoveLikeYou.mp4", ",", "11_Amalgam.mp4", ",", "11_Opal.mp4", ",", "12_StrongerThanYou.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5633,7 +5675,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "__black", ",", "__bodies", ",", "__cmen", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy" ],
+									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "sammus" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13184,7 +13226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 97.166015999999999, 55.0, 89.0, 19.0 ],
+					"patching_rect" : [ 73.666015999999999, 100.386229999999998, 89.0, 19.0 ],
 					"text" : "jit.qt.movie 640 480"
 				}
 
@@ -13565,6 +13607,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-208", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -13751,6 +13800,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
