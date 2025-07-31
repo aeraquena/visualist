@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 215.0, 87.0, 1660.0, 959.0 ],
+		"rect" : [ 303.0, 87.0, 1423.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4063,6 +4063,19 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 41.890014999999998, 74.0, 215.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 41.890014999999998, 74.0, 215.0, 20.0 ],
+									"text" : "_______________________________"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
 									"index" : 1,
@@ -5180,7 +5193,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "02_YurIOnIce.mp4", ",", "04_DanceOfSwords.mp4", ",", "05_ConnieAndSteven.mp4", ",", "06_IkenfellTrailer.mp4", ",", "08_AnimalCrossingMovie.mp4", ",", "10_LoveLikeYou.mp4", ",", "11_Amalgam.mp4", ",", "11_Opal.mp4", ",", "12_StrongerThanYou.mp4" ],
+									"items" : "MetroidPrimeCutscenes.mp4",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5464,7 +5477,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 34.701050000000002, -64.625, 114.5, 19.259125000000001 ],
+					"patching_rect" : [ 34.701050000000002, -64.625, 147.464966000000004, 27.259124999999997 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.631600964237215, 20.643750190734863, 138.031600999999995, 73.9375 ],
 					"viewvisibility" : 1
@@ -6272,7 +6285,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1182.0, 931.0, 55.0, 22.0 ],
+						"rect" : [ 1232.0, 212.0, 959.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6301,6 +6314,19 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.354980000000012, 85.0, 215.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 36.354980000000012, 85.0, 215.0, 20.0 ],
+									"text" : "_______________________________"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
