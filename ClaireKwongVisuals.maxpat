@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1691.0, 100.0, 1660.0, 983.0 ],
+		"rect" : [ 53.0, 96.0, 2473.0, 942.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1373.5, 254.253242249999914, 180.0, 20.0 ],
-					"presentation_linecount" : 5,
 					"text" : "COLOR OP FILTER BOTTOM 1"
 				}
 
@@ -177,7 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 434.398499000000015, 621.492660000000683, 100.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "LOOP POINTS 2"
 				}
 
@@ -238,7 +236,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2033.5, -12.007506750000175, 110.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "COLOR FILTER 1"
 				}
 
@@ -251,7 +248,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2465.0, -10.410949250000158, 105.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "VIDEO OVERLAY"
 				}
 
@@ -288,7 +284,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.982483000000286, 141.743745249999847, 106.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "VIDEO PREVIEW"
 				}
 
@@ -313,7 +308,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 247.701050000000009, -0.405731999999972, 106.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "VIDEO SELECT 1"
 				}
 
@@ -636,7 +630,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "sammus" ],
+									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "flowers_mp4", ",", "giphy_flowers", ",", "giphy_su", ",", "sammus" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -718,7 +712,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "__moodeng2.mp4", ",", "__moodeng_closeup.mp4", ",", "__video_armadillo.mp4", ",", "__video_pikachu.mp4", ",", "__video_poodle.mp4", ",", "__video_sparememylife.mp4", ",", "_heart.mov", ",", "bear.mp4", ",", "computer_beach.mp4", ",", "fidgetacetone.mp4", ",", "moodeng.mp4", ",", "raccoon_party.mp4", ",", "video_catpaint.mp4", ",", "video_catwiggle.mp4", ",", "video_dogflowers.mov", ",", "video_left_shark.mp4", ",", "video_left_shark_gif.mp4", ",", "video_owl.mp4", ",", "video_pokemon_starters.mov", ",", "video_robot.mov", ",", "video_shark_real.mp4", ",", "video_shark_tickle.mp4", ",", "video_tubbs.mov", ",", "video_tubbs2.mov" ],
+									"items" : "black.png",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1004,7 +998,7 @@
 ,
 					"patching_rect" : [ 13.982483000000286, 313.24374524999979, 170.464966000000004, 83.259124999999997 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1311.585033415874477, 15.15624988079071, 163.031600999999682, 82.425000309944153 ],
+					"presentation_rect" : [ 1334.701049999999668, 18.75, 163.031600999999682, 82.425000309944153 ],
 					"viewvisibility" : 1
 				}
 
@@ -5951,6 +5945,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 143.25, 23.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-31",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -6120,7 +6126,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "sammus" ],
+									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "flowers_mp4", ",", "giphy_flowers", ",", "giphy_su", ",", "sammus" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6202,7 +6208,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "01-lost.mp4", ",", "02_YurIOnIce.mp4", ",", "04_DanceOfSwords.mp4", ",", "05_ConnieAndSteven.mp4", ",", "06_IkenfellTrailer.mp4", ",", "08_AnimalCrossingMovie.mp4", ",", "10_LoveLikeYou.mp4", ",", "11_Amalgam.mp4", ",", "11_Opal.mp4", ",", "12_StrongerThanYou.mp4", ",", "Characters_white_wide.png", ",", "ikenfell-in this together segment.mp4", ",", "ikenfell-petals in the wind segment.mp4", ",", "nov20-test video.mp4", ",", "steven-universe-pearl.mp4" ],
+									"items" : [ "01-lost.mp4", ",", "02_YurIOnIce.mp4", ",", "04_DanceOfSwords.mp4", ",", "05_ConnieAndSteven.mp4", ",", "06_IkenfellTrailer.mp4", ",", "08_AnimalCrossingMovie.mp4", ",", "10_LoveLikeYou.mp4", ",", "11_Amalgam.mp4", ",", "11_Opal.mp4", ",", "12_StrongerThanYou.mp4", ",", "Characters1280.png", ",", "ikenfell-in this together segment.mp4", ",", "ikenfell-petals in the wind segment.mp4", ",", "LoveLikeYouLyrics.mp4", ",", "nov20-test video.mp4", ",", "steven-universe-pearl.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6389,6 +6395,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"source" : [ "obj-23", 0 ]
 								}
@@ -6488,7 +6501,7 @@
 ,
 					"patching_rect" : [ 247.701050000000009, 28.594268000000028, 129.464966000000004, 22.259124999999997 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.631600964237215, 20.643750190734863, 138.031600999999995, 73.9375 ],
+					"presentation_rect" : [ 9.631600964237215, 20.643750190734863, 185.031600999999995, 73.9375 ],
 					"viewvisibility" : 1
 				}
 
@@ -6697,7 +6710,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "sammus" ],
+									"items" : [ "__black", ",", "__bodies", ",", "__dance", ",", "__drawn", ",", "__food", ",", "__fun", ",", "__jellyfish", ",", "__nature", ",", "__paint", ",", "__pills", ",", "__seals", ",", "__space", ",", "__tech", ",", "__tech2", ",", "__tech_blocky", ",", "__tech_wavy", ",", "aivisura", ",", "drawn2", ",", "flowers_mp4", ",", "giphy_flowers", ",", "giphy_su", ",", "sammus" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6779,7 +6792,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "__flower_slash.mp4", ",", "__rose_black.mp4", ",", "__rose_explode.mp4", ",", "_flower_bloom.mp4", ",", "_flower_short.mp4", ",", "_flowers_bw.mp4", ",", "blue_jellies.mp4", ",", "butterfly_in_web.mp4", ",", "jellyfish_dance_fast.mp4", ",", "jellyfish_fast.mp4", ",", "jellyfish_one_to_several_jellies.mp4", ",", "kingfisher.mp4", ",", "leaves_falling.mov", ",", "moon.mp4", ",", "moth_web_closeup.mp4", ",", "rain_window_colors.mp4", ",", "snowflakes.mp4" ],
+									"items" : [ "__clap.mp4", ",", "__clap2.mp4", ",", "__draw_pattern.mp4", ",", "__drawn_line_explosion_bwpink.mp4", ",", "__drawn_purpleyellowshapeonwhite.mp4", ",", "__drawn_tubes.mp4", ",", "__egg_animated.mp4", ",", "__eye_drawn.mp4", ",", "__worm_parade.mp4", ",", "drawn_3_stems.mp4", ",", "drawn_blue_curls.mp4", ",", "drawn_building_tubes.mp4", ",", "drawn_explosion_bwred.mp4", ",", "drawn_paper_curlicues.mp4", ",", "drawn_rainhive.mp4", ",", "drawn_raintube.mp4", ",", "drawn_worms_bw.mp4", ",", "hand_morph_animal.mp4", ",", "membrane.mp4", ",", "pills_drawn.mp4", ",", "sushi_drawn.mp4", ",", "sushi_drawn_2.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
