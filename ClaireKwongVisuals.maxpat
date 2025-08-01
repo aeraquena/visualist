@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 228.0, 87.0, 1660.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1790.0, 880.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -438,7 +438,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "__morganfreeman.mp4", ",", "__notmorganfreeman.mp4", ",", "_athletic_dance.mp4", ",", "_whirl1.mov", ",", "_whirl2.mov", ",", "ballet.mp4", ",", "ballet1.mov", ",", "ballet2.mov", ",", "ballet3_transition.mov", ",", "ballet4_dark.mov", ",", "ballet5_darkglitch.mov", ",", "ballet_body.mp4", ",", "ballet_legs.mp4", ",", "ballet_many.mp4", ",", "ballet_many_glitch.mov", ",", "whirl0.mov", ",", "whirl3.mov", ",", "whirl5_close.mov", ",", "whirl_close.mov", ",", "whirl_high_contrast.mov", ",", "whirl_spare.mov", ",", "whirl_wake.mov", ",", "whirl_wake_filter.mov", ",", "whirl_wake_neon.mov", ",", "whirl_wake_transition.mov" ],
+									"items" : [ "__moodeng2.mp4", ",", "__moodeng_closeup.mp4", ",", "__video_armadillo.mp4", ",", "__video_pikachu.mp4", ",", "__video_poodle.mp4", ",", "__video_sparememylife.mp4", ",", "_heart.mov", ",", "bear.mp4", ",", "computer_beach.mp4", ",", "fidgetacetone.mp4", ",", "moodeng.mp4", ",", "raccoon_party.mp4", ",", "video_catpaint.mp4", ",", "video_catwiggle.mp4", ",", "video_dogflowers.mov", ",", "video_left_shark.mp4", ",", "video_left_shark_gif.mp4", ",", "video_owl.mp4", ",", "video_pokemon_starters.mov", ",", "video_robot.mov", ",", "video_shark_real.mp4", ",", "video_shark_tickle.mp4", ",", "video_tubbs.mov", ",", "video_tubbs2.mov" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14047,7 +14047,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.888379, 0.468002, 0.877593, 1.0 ],
+					"bgcolor" : [ 0.988333463668823, 0.400561958551407, 0.999338030815125, 1.0 ],
 					"id" : "obj-173",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14063,7 +14063,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.092803, 0.688855, 0.954379, 1.0 ],
+					"bgcolor" : [ 0.12770003080368, 0.999774515628815, 0.999047517776489, 1.0 ],
 					"id" : "obj-209",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14079,7 +14079,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.092803, 0.688855, 0.954379, 1.0 ],
+					"bgcolor" : [ 0.990448236465454, 0.502245008945465, 0.032880764454603, 1.0 ],
 					"id" : "obj-232",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14095,7 +14095,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.502762, 1.0, 0.04301, 1.0 ],
+					"bgcolor" : [ 0.12770003080368, 0.999774515628815, 0.999047517776489, 1.0 ],
 					"id" : "obj-61",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14111,7 +14111,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.988333463668823, 0.400561958551407, 0.999338030815125, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14143,7 +14143,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.990448236465454, 0.502245008945465, 0.032880764454603, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14175,7 +14175,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.502762, 1.0, 0.04301, 1.0 ],
+					"bgcolor" : [ 0.701957762241364, 0.701978802680969, 0.701966881752014, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "panel",
 					"mode" : 0,
