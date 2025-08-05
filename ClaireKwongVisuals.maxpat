@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 130.0, 87.0, 1661.0, 959.0 ],
+		"rect" : [ 976.0, 87.0, 1661.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2441,7 +2441,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "Ikenfell_green_battle.mp4", ",", "nov20-test video.mp4", ",", "rose_black.mp4" ],
+									"items" : [ "__burning.mp4", ",", "__space_red1.mp4", ",", "__space_red2.mp4", ",", "_space_blue2red.mp4", ",", "_space_pink_cloud_stars.mp4", ",", "_z_space_blue_pink.mp4", ",", "_z_space_blue_pink_explode.mp4", ",", "_z_space_particle_explode.mp4", ",", "_z_space_satellite_480.mov", ",", "_z_space_satellite_toward_earth.mp4", ",", "_z_space_satellite_zoom_480.mov", ",", "space_blackhole.mp4", ",", "space_mushroom_cloud.mp4", ",", "space_star_explode.mp4", ",", "space_white_cloud.mp4", ",", "space_yellow_cloud_480.mov", ",", "z_space_capsule.mp4", ",", "z_space_earth.mp4", ",", "z_space_earth_surface_480.mov", ",", "z_space_explode_inside.mp4", ",", "z_space_heat_orange_explode.mp4", ",", "z_space_heat_shadow_sun.mp4", ",", "z_space_heat_sun_medium.mp4", ",", "z_space_heat_sun_medium_close_480.mov", ",", "z_space_heat_sun_surface_480.mov", ",", "z_space_nebula.mp4", ",", "z_space_nebula_upwards.mp4", ",", "z_space_particle_explode_close1.mp4", ",", "z_space_particle_explode_close2.mp4", ",", "z_space_pink_blue_cloud.mp4", ",", "z_space_purple_yellow.mp4", ",", "z_space_small_sun.mp4", ",", "z_space_spiral.mp4", ",", "z_space_sun_closeup.mp4", ",", "z_space_yellow_pink.mp4", ",", "z_space_yellow_trails.mp4", ",", "z_spacedust.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7553,7 +7553,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "metroid_baby_metroid.mp4", ",", "metroid_dark_samus_water.mp4", ",", "metroid_jellyfish_brain.mp4", ",", "metroid_kraid1.mp4", ",", "metroid_kraid2.mp4", ",", "metroid_mother_brain.mp4", ",", "metroid_ridley.mp4", ",", "metroid_ridley_moon.mp4", ",", "metroid_samus_armcannon.mp4", ",", "metroid_samus_ball.mp4", ",", "metroid_samus_jump_360_moon.mp4", ",", "metroid_samus_pose_hexagon.mp4", ",", "metroid_spacecraft_moon.mp4", ",", "metroid_zero_suit.mp4" ],
+									"items" : [ "__burning.mp4", ",", "__space_red1.mp4", ",", "__space_red2.mp4", ",", "_space_blue2red.mp4", ",", "_space_pink_cloud_stars.mp4", ",", "_z_space_blue_pink.mp4", ",", "_z_space_blue_pink_explode.mp4", ",", "_z_space_particle_explode.mp4", ",", "_z_space_satellite_480.mov", ",", "_z_space_satellite_toward_earth.mp4", ",", "_z_space_satellite_zoom_480.mov", ",", "space_blackhole.mp4", ",", "space_mushroom_cloud.mp4", ",", "space_star_explode.mp4", ",", "space_white_cloud.mp4", ",", "space_yellow_cloud_480.mov", ",", "z_space_capsule.mp4", ",", "z_space_earth.mp4", ",", "z_space_earth_surface_480.mov", ",", "z_space_explode_inside.mp4", ",", "z_space_heat_orange_explode.mp4", ",", "z_space_heat_shadow_sun.mp4", ",", "z_space_heat_sun_medium.mp4", ",", "z_space_heat_sun_medium_close_480.mov", ",", "z_space_heat_sun_surface_480.mov", ",", "z_space_nebula.mp4", ",", "z_space_nebula_upwards.mp4", ",", "z_space_particle_explode_close1.mp4", ",", "z_space_particle_explode_close2.mp4", ",", "z_space_pink_blue_cloud.mp4", ",", "z_space_purple_yellow.mp4", ",", "z_space_small_sun.mp4", ",", "z_space_spiral.mp4", ",", "z_space_sun_closeup.mp4", ",", "z_space_yellow_pink.mp4", ",", "z_space_yellow_trails.mp4", ",", "z_spacedust.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11885,7 +11885,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 871.0, 681.0, 120.0, 20.0 ],
+						"rect" : [ 189.0, 427.0, 498.0, 549.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11957,8 +11957,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 4.0, 178.592148000000009, 35.0, 22.0 ],
-									"text" : "-180"
+									"patching_rect" : [ 4.0, 178.592148000000009, 33.0, 22.0 ],
+									"text" : "-360"
 								}
 
 							}
@@ -12059,8 +12059,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 140.592148000000009, 35.0, 22.0 ],
-									"text" : "-140"
+									"patching_rect" : [ 54.0, 140.592148000000009, 33.0, 22.0 ],
+									"text" : "-280"
 								}
 
 							}
@@ -12589,8 +12589,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 196.5, 35.0, 22.0 ],
-									"text" : "-180"
+									"patching_rect" : [ 15.0, 196.5, 33.0, 22.0 ],
+									"text" : "-360"
 								}
 
 							}
@@ -12691,8 +12691,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 65.0, 158.5, 35.0, 22.0 ],
-									"text" : "-140"
+									"patching_rect" : [ 65.0, 158.5, 33.0, 22.0 ],
+									"text" : "-280"
 								}
 
 							}
