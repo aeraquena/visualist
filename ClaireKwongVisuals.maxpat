@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 254.249984499999982, 948.543200902407307, 42.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 612.916658160278303, 722.036225217971833, 29.0, 20.0 ],
+					"presentation_rect" : [ 612.916658160278303, 728.036225217971833, 29.0, 20.0 ],
 					"text" : "9. L"
 				}
 
@@ -60,8 +60,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 296.683533000000125, 948.543200902407307, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 656.350206660278445, 722.036225217971833, 29.5, 22.0 ],
-					"text" : "60"
+					"presentation_rect" : [ 656.350206660278445, 728.036225217971833, 29.5, 22.0 ],
+					"text" : "120"
 				}
 
 			}
@@ -88,20 +88,21 @@
 					"patching_rect" : [ 297.482483000000286, 931.263324652407618, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 656.350206660278445, 707.877478065565128, 29.5, 22.0 ],
-					"text" : "134"
+					"text" : "100"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-200",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.249984499999982, 912.104577500000914, 42.0, 20.0 ],
+					"patching_rect" : [ 254.249984499999982, 912.104577500000914, 42.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 612.916658160278303, 682.877478065565128, 29.0, 20.0 ],
-					"text" : "7. 1"
+					"presentation_rect" : [ 598.916658160278303, 682.877478065565128, 57.0, 20.0 ],
+					"text" : "7. 1 (3/4)"
 				}
 
 			}
@@ -115,7 +116,7 @@
 					"patching_rect" : [ 297.482483000000286, 912.104577500000914, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 656.350206660278445, 682.877478065565128, 29.5, 22.0 ],
-					"text" : "82"
+					"text" : "165"
 				}
 
 			}
@@ -169,7 +170,7 @@
 					"patching_rect" : [ 296.683533000000125, 868.104577500000914, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 656.350206660278445, 638.877478065565128, 29.5, 22.0 ],
-					"text" : "110"
+					"text" : "55"
 				}
 
 			}
@@ -1420,7 +1421,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 99.0, 955.104577500000914, 56.978149000000002, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 470.701049999999441, 652.004932107288369, 35.0, 20.0 ],
+					"presentation_rect" : [ 465.5, 678.652906475327427, 35.0, 20.0 ],
 					"text" : "ms:"
 				}
 
@@ -1435,7 +1436,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 117.0, 807.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 418.701049999999441, 625.277411184774337, 50.0, 22.0 ]
+					"presentation_rect" : [ 413.5, 651.925385552813395, 50.0, 22.0 ]
 				}
 
 			}
@@ -1465,7 +1466,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.0, 1063.104582804814527, 56.978149000000002, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 437.0, 684.877478065565128, 35.0, 20.0 ],
+					"presentation_rect" : [ 440.399793339721555, 622.877478065565128, 35.0, 20.0 ],
 					"text" : "beat"
 				}
 
@@ -1516,7 +1517,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 126.0, 1061.104582804814299, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 411.600000023841858, 536.477981830515773, 80.077608325386109, 80.077608325386109 ]
+					"presentation_rect" : [ 413.5, 536.477981830515773, 80.077608325386109, 80.077608325386109 ]
 				}
 
 			}
@@ -1530,7 +1531,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.0, 989.104577500000914, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 410.100206660278445, 682.877478065565128, 24.0, 24.0 ]
+					"presentation_rect" : [ 413.5, 620.877478065565128, 24.0, 24.0 ]
 				}
 
 			}
@@ -1568,7 +1569,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 122.0, 955.104577500000914, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 418.701049999999441, 652.004932107288369, 50.0, 22.0 ]
+					"presentation_rect" : [ 413.5, 678.652906475327427, 50.0, 22.0 ]
 				}
 
 			}
@@ -1950,7 +1951,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 781.104577500000914, 56.978149000000002, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 470.701049999999441, 625.277411184774337, 35.0, 20.0 ],
+					"presentation_rect" : [ 465.5, 651.925385552813395, 35.0, 20.0 ],
 					"text" : "bpm:"
 				}
 
@@ -7783,7 +7784,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "04_Pearl.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "08_Isabelle_dancing.mp4", ",", "08_KK_Rave.mp4", ",", "09_Aivisura_Spotlight.mp4", ",", "09_Aivisura_touch.mp4", ",", "09_drawn_line_explosion_bwpink.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "Ikenfell_green_battle.mp4", ",", "nov20-test video.mp4", ",", "rose_black.mp4" ],
+									"items" : [ "02_metroid_samus_jump_360_moon.mp4", ",", "02_metroid_samus_pose_hexagon.mp4", ",", "02_metroid_spacecraft_moon.mp4", ",", "04_metroid_brinstar.mp4", ",", "04_metroid_jellyfish_brain.mp4", ",", "05_metroid_samus_armcannon.mp4", ",", "05_metroid_samus_ball.mp4", ",", "06__metroid_ridley.mp4", ",", "06__metroid_ridley_moon.mp4", ",", "06_metroid_kraid1.mp4", ",", "06_metroid_kraid2.mp4", ",", "06_metroid_mother_brain.mp4", ",", "07_flower_bloom.mp4", ",", "07_metroid_zero_suit.mp4", ",", "07_rose_black.mp4", ",", "08_BlackWomanPaintCloseup.mp4", ",", "09__flower_slash.mp4", ",", "09__rose_explode.mp4", ",", "09_heart.mov", ",", "jelly__colorful_jellies.mp4", ",", "jelly__jellyfish_dance_slow.mp4", ",", "jelly__pink_rainbow_cuttlefish.mp4", ",", "metroid_baby_metroid.mp4", ",", "metroid_dark_samus_water.mp4", ",", "space_blue2red.mp4", ",", "space_pink_cloud_stars.mp4", ",", "space_red2.mp4", ",", "space_z__blue_pink.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
