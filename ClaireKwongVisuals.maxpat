@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 976.0, 87.0, 1661.0, 959.0 ],
+		"rect" : [ 263.0, 96.0, 1426.0, 837.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -488,7 +488,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1364.0, 184.0, 677.0, 751.0 ],
+						"rect" : [ 443.0, 142.0, 677.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -660,7 +660,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 16.25, 423.0, 20.0, 20.0 ],
+									"patching_rect" : [ 219.25, 81.0, 20.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 138.420059000000009, 394.305724999999995, 32.0, 32.0 ]
 								}
@@ -674,7 +674,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 445.0, 52.0, 20.0 ],
+									"patching_rect" : [ 208.0, 103.0, 52.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 128.420059000000009, 421.305724999999995, 52.0, 20.0 ],
 									"text" : "pixelate"
@@ -725,7 +725,7 @@
 									"patching_rect" : [ 10.0, 165.0, 29.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 407.925995, 562.9375, 29.5, 22.0 ],
-									"text" : "15"
+									"text" : "16"
 								}
 
 							}
@@ -1177,7 +1177,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 99.0, 955.104577500000914, 56.978149000000002, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1430.201049999999668, 391.922391674613891, 35.0, 20.0 ],
+					"presentation_rect" : [ 1402.802099976157251, 474.0, 35.0, 20.0 ],
 					"text" : "ms:"
 				}
 
@@ -1192,7 +1192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 117.0, 807.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1467.201049999999668, 364.422360674613913, 50.0, 22.0 ]
+					"presentation_rect" : [ 1345.701049999999441, 446.499969000000021, 50.0, 22.0 ]
 				}
 
 			}
@@ -1223,7 +1223,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.0, 1063.104582804814527, 56.978149000000002, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1403.201049999999668, 462.953025854106954, 35.0, 20.0 ],
+					"presentation_rect" : [ 190.229115000553179, 465.877475800588627, 35.0, 20.0 ],
 					"text" : "beat"
 				}
 
@@ -1238,18 +1238,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1344.701049999999441, 343.422360674613969, 98.0, 20.0 ],
 					"text" : "press to the beat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 47.0, 955.104577500000914, 58.0, 22.0 ],
-					"text" : "loadbang"
 				}
 
 			}
@@ -1286,7 +1274,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 126.0, 1061.104582804814299, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1377.201049999999668, 462.953025854106954, 24.0, 24.0 ]
+					"presentation_rect" : [ 227.229115000553179, 415.922391674613891, 80.077608325386109, 80.077608325386109 ]
 				}
 
 			}
@@ -1300,7 +1288,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 99.0, 989.104577500000914, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1347.201049999999668, 462.953025854106954, 24.0, 24.0 ]
+					"presentation_rect" : [ 165.729115000553179, 457.638742657537477, 24.0, 24.0 ]
 				}
 
 			}
@@ -1338,7 +1326,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 122.0, 955.104577500000914, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1467.201049999999668, 391.922391674613891, 50.0, 22.0 ]
+					"presentation_rect" : [ 1345.701049999999441, 474.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1720,7 +1708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 781.104577500000914, 56.978149000000002, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1430.201049999999668, 364.422360674613913, 35.0, 20.0 ],
+					"presentation_rect" : [ 1402.802099976157251, 446.499969000000021, 35.0, 20.0 ],
 					"text" : "bpm:"
 				}
 
@@ -2441,7 +2429,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "__burning.mp4", ",", "__space_red1.mp4", ",", "__space_red2.mp4", ",", "_space_blue2red.mp4", ",", "_space_pink_cloud_stars.mp4", ",", "_z_space_blue_pink.mp4", ",", "_z_space_blue_pink_explode.mp4", ",", "_z_space_particle_explode.mp4", ",", "_z_space_satellite_480.mov", ",", "_z_space_satellite_toward_earth.mp4", ",", "_z_space_satellite_zoom_480.mov", ",", "space_blackhole.mp4", ",", "space_mushroom_cloud.mp4", ",", "space_star_explode.mp4", ",", "space_white_cloud.mp4", ",", "space_yellow_cloud_480.mov", ",", "z_space_capsule.mp4", ",", "z_space_earth.mp4", ",", "z_space_earth_surface_480.mov", ",", "z_space_explode_inside.mp4", ",", "z_space_heat_orange_explode.mp4", ",", "z_space_heat_shadow_sun.mp4", ",", "z_space_heat_sun_medium.mp4", ",", "z_space_heat_sun_medium_close_480.mov", ",", "z_space_heat_sun_surface_480.mov", ",", "z_space_nebula.mp4", ",", "z_space_nebula_upwards.mp4", ",", "z_space_particle_explode_close1.mp4", ",", "z_space_particle_explode_close2.mp4", ",", "z_space_pink_blue_cloud.mp4", ",", "z_space_purple_yellow.mp4", ",", "z_space_small_sun.mp4", ",", "z_space_spiral.mp4", ",", "z_space_sun_closeup.mp4", ",", "z_space_yellow_pink.mp4", ",", "z_space_yellow_trails.mp4", ",", "z_spacedust.mp4" ],
+									"items" : [ "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "04_Pearl.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "08_Isabelle_dancing.mp4", ",", "08_KK_Rave.mp4", ",", "09_Aivisura_Spotlight.mp4", ",", "09_Aivisura_touch.mp4", ",", "09_drawn_line_explosion_bwpink.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "Ikenfell_green_battle.mp4", ",", "nov20-test video.mp4", ",", "rose_black.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7553,7 +7541,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "__burning.mp4", ",", "__space_red1.mp4", ",", "__space_red2.mp4", ",", "_space_blue2red.mp4", ",", "_space_pink_cloud_stars.mp4", ",", "_z_space_blue_pink.mp4", ",", "_z_space_blue_pink_explode.mp4", ",", "_z_space_particle_explode.mp4", ",", "_z_space_satellite_480.mov", ",", "_z_space_satellite_toward_earth.mp4", ",", "_z_space_satellite_zoom_480.mov", ",", "space_blackhole.mp4", ",", "space_mushroom_cloud.mp4", ",", "space_star_explode.mp4", ",", "space_white_cloud.mp4", ",", "space_yellow_cloud_480.mov", ",", "z_space_capsule.mp4", ",", "z_space_earth.mp4", ",", "z_space_earth_surface_480.mov", ",", "z_space_explode_inside.mp4", ",", "z_space_heat_orange_explode.mp4", ",", "z_space_heat_shadow_sun.mp4", ",", "z_space_heat_sun_medium.mp4", ",", "z_space_heat_sun_medium_close_480.mov", ",", "z_space_heat_sun_surface_480.mov", ",", "z_space_nebula.mp4", ",", "z_space_nebula_upwards.mp4", ",", "z_space_particle_explode_close1.mp4", ",", "z_space_particle_explode_close2.mp4", ",", "z_space_pink_blue_cloud.mp4", ",", "z_space_purple_yellow.mp4", ",", "z_space_small_sun.mp4", ",", "z_space_spiral.mp4", ",", "z_space_sun_closeup.mp4", ",", "z_space_yellow_pink.mp4", ",", "z_space_yellow_trails.mp4", ",", "z_spacedust.mp4" ],
+									"items" : [ "__colorful_jellies.mp4", ",", "__flower_slash.mp4", ",", "__jellyfish_dance_slow.mp4", ",", "__pink_rainbow_cuttlefish.mp4", ",", "__rose_black.mp4", ",", "__rose_explode.mp4", ",", "_flower_bloom.mp4", ",", "_heart.mov", ",", "black_woman_closeup.mp4", ",", "black_woman_keyboard.mp4", ",", "black_woman_makeup.mp4", ",", "BlackWomanDancing.mp4", ",", "BlackWomanPaintCloseup.mp4", ",", "mae_closeup.mp4", ",", "mae_floating.mp4", ",", "mae_jemison.webp", ",", "powerangers.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8137,7 +8125,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
-									"items" : [ "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "Ikenfell_green_battle.mp4", ",", "nov20-test video.mp4", ",", "rose_black.mp4" ],
+									"items" : [ "__colorful_jellies.mp4", ",", "__flower_slash.mp4", ",", "__jellyfish_dance_slow.mp4", ",", "__pink_rainbow_cuttlefish.mp4", ",", "__rose_black.mp4", ",", "__rose_explode.mp4", ",", "_flower_bloom.mp4", ",", "_heart.mov", ",", "black_woman_closeup.mp4", ",", "black_woman_keyboard.mp4", ",", "black_woman_makeup.mp4", ",", "BlackWomanDancing.mp4", ",", "BlackWomanPaintCloseup.mp4", ",", "mae_closeup.mp4", ",", "mae_floating.mp4", ",", "mae_jemison.webp", ",", "powerangers.mp4" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -16505,13 +16493,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-208", 0 ],
 					"source" : [ "obj-357", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-101", 0 ],
-					"source" : [ "obj-36", 0 ]
 				}
 
 			}
