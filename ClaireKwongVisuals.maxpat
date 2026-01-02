@@ -4,14 +4,28 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 106.0, 1988.0, 1189.0 ],
+        "rect": [ 34.0, 112.0, 1660.0, 959.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "format": 6,
+                    "id": "obj-240",
+                    "maxclass": "flonum",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 607.0, -95.0, 50.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 50.0, 22.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-247",
@@ -475,7 +489,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -838,7 +852,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1323,7 +1337,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 575.0, 1212.1587471524067, 50.0, 22.0 ]
+                    "patching_rect": [ 575.0, 1206.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -1426,7 +1440,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 575.0, 1243.1587471524067, 75.0, 22.0 ],
+                    "patching_rect": [ 579.0, 1244.0, 75.0, 22.0 ],
                     "text": "s beat_ramp"
                 }
             },
@@ -1642,7 +1656,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2308,7 +2322,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2472,7 +2486,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___sammus", ",", "___sammus_2", ",", "___sammus_space", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___lonely_magic", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -2548,7 +2562,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_aivi & surasshu logo white.png", ",", "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "04_Pearl.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "08_Isabelle_dancing.mp4", ",", "08_KK_Rave.mp4", ",", "09_Aivisura_Spotlight.mp4", ",", "09_Aivisura_touch.mp4", ",", "09_DIGITAL FUSION FOREVER black.png", ",", "09_drawn_line_explosion_bwpink.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "_flowers_bw.mp4", ",", "drawn_atom_array.mp4", ",", "drawn_tubes.mp4", ",", "drawn_vines.mp4", ",", "Ikenfell_green_battle.mp4", ",", "love.png", ",", "Meanwhile - BG Elements.png", ",", "Meanwhile - Crystal Clock (Glow).png", ",", "Meanwhile - Melty Clock.png", ",", "Meanwhile - Wind Baby.png", ",", "nov20-test video.mp4", ",", "rose_black.mp4", ",", "seal_guitar_hd.mov", ",", "surasshu shoes.png" ],
+                                    "items": "01_purple_yellow_fusion.mp4",
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -3037,7 +3051,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3200,7 +3214,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4035,7 +4049,7 @@
                     "patching_rect": [ 2033.5, 64.28445524999984, 39.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 829.590136166893, 247.5161043933906, 39.0, 20.0 ],
-                    "text": "green"
+                    "text": "red"
                 }
             },
             {
@@ -4072,8 +4086,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 2033.5, 86.28445524999984, 103.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 832.590136166893, 266.5161043933906, 103.0, 22.0 ],
-                    "text": "planemap 2 1 2 3"
+                    "presentation_rect": [ 832.590136166893, 266.5161043933906, 101.0, 22.0 ],
+                    "text": "planemap 1 1 2 3"
                 }
             },
             {
@@ -4097,7 +4111,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4986,7 +5000,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -5509,7 +5523,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -6013,7 +6027,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -6796,7 +6810,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -6971,7 +6985,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___sammus", ",", "___sammus_2", ",", "___sammus_space", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___lonely_magic", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7047,7 +7061,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_aivi & surasshu logo white.png", ",", "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "04_Pearl.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "08_Isabelle_dancing.mp4", ",", "08_KK_Rave.mp4", ",", "09_Aivisura_Spotlight.mp4", ",", "09_Aivisura_touch.mp4", ",", "09_DIGITAL FUSION FOREVER black.png", ",", "09_drawn_line_explosion_bwpink.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "_flowers_bw.mp4", ",", "drawn_atom_array.mp4", ",", "drawn_tubes.mp4", ",", "drawn_vines.mp4", ",", "Ikenfell_green_battle.mp4", ",", "love.png", ",", "Meanwhile - BG Elements.png", ",", "Meanwhile - Crystal Clock (Glow).png", ",", "Meanwhile - Melty Clock.png", ",", "Meanwhile - Wind Baby.png", ",", "nov20-test video.mp4", ",", "rose_black.mp4", ",", "seal_guitar_hd.mov", ",", "surasshu shoes.png" ],
+                                    "items": [ "01_purple_yellow_fusion.mp4", ",", "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "06_mabe_village.mp4", ",", "07_Aivisura_Spotlight.mp4", ",", "07_Aivisura_touch.mp4", ",", "07_drawn_line_explosion_bwpink.mp4", ",", "08_whirl0.mov", ",", "08_whirl1.mov", ",", "08_whirl3.mov", ",", "08_whirl_close.mov", ",", "Ikenfell_walking.mp4", ",", "IkenfellBattles.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7332,7 +7346,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -7476,7 +7490,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___sammus", ",", "___sammus_2", ",", "___sammus_space", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___lonely_magic", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7552,7 +7566,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_aivi & surasshu logo white.png", ",", "01_Characters1280.png", ",", "01_drawn_blue_curls.mp4", ",", "01_drawn_purpleyellowshapeonwhite.mp4", ",", "02_YuriOnIceCut.mp4", ",", "03_Lost.mp4", ",", "04_DanceOfSwords.mp4", ",", "04_Pearl.mp4", ",", "05_ConnieAndStevenCut.mp4", ",", "06_IkenfellBattles.mp4", ",", "07_Ikenfell_walking.mp4", ",", "08_Isabelle_dancing.mp4", ",", "08_KK_Rave.mp4", ",", "09_Aivisura_Spotlight.mp4", ",", "09_Aivisura_touch.mp4", ",", "09_DIGITAL FUSION FOREVER black.png", ",", "09_drawn_line_explosion_bwpink.mp4", ",", "11_Amalgam_cut.mp4", ",", "11_Opal_cut.mp4", ",", "12_StrongerThanYouCut.mp4", ",", "_flowers_bw.mp4", ",", "drawn_atom_array.mp4", ",", "drawn_tubes.mp4", ",", "drawn_vines.mp4", ",", "Ikenfell_green_battle.mp4", ",", "love.png", ",", "Meanwhile - BG Elements.png", ",", "Meanwhile - Crystal Clock (Glow).png", ",", "Meanwhile - Melty Clock.png", ",", "Meanwhile - Wind Baby.png", ",", "nov20-test video.mp4", ",", "rose_black.mp4", ",", "seal_guitar_hd.mov", ",", "surasshu shoes.png" ],
+                                    "items": [ "01 amalgam.mp4", ",", "02 wind rider.mp4", ",", "03 yuri on ice.mp4", ",", "04 love like you.mp4", ",", "05 petals in the wind (ikenfell gameplay).mp4", ",", "06 mabe village.mp4", ",", "07 here_s how.mp4", ",", "08 periphery.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7838,7 +7852,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -7988,7 +8002,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -8706,7 +8720,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -9698,7 +9712,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -10269,7 +10283,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -10661,7 +10675,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -10831,7 +10845,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -11222,7 +11236,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -11360,7 +11374,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -11749,7 +11763,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -12232,7 +12246,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -12672,7 +12686,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -13004,7 +13018,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -14681,12 +14695,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-214", 0 ],
-                    "source": [ "obj-196", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-108", 0 ],
                     "source": [ "obj-198", 0 ]
                 }
@@ -15429,6 +15437,14 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
