@@ -9,9 +9,23 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 112.0, 1660.0, 959.0 ],
+        "rect": [ 35.0, 100.0, 1660.0, 983.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "attr": "adapt",
+                    "id": "obj-50",
+                    "maxclass": "attrui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 749.0, 128.0, 150.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 86.0, -34.0, 150.0, 22.0 ]
+                }
+            },
             {
                 "box": {
                     "format": 6,
@@ -2486,7 +2500,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___lonely_magic", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_west", ",", "___lonely_magic", ",", "___lonely_magic_fg", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "aivisura_love_like_you", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "lonely_magic_no", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -2562,7 +2576,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": "01_purple_yellow_fusion.mp4",
+                                    "items": [ "Dancing Loop FINAL2.mov", ",", "Reb Guitar Loop FINAL2.mov", ",", "Reb Walk Loop FINAL2.mov" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -4073,8 +4087,8 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 2033.5, 41.78445524999984, 103.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 832.590136166893, 224.87346802384187, 103.0, 22.0 ],
-                    "text": "planemap 3 1 2 3"
+                    "presentation_rect": [ 832.590136166893, 224.87346802384187, 101.0, 22.0 ],
+                    "text": "planemap 0 1 2 3"
                 }
             },
             {
@@ -6985,7 +6999,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___lonely_magic", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_west", ",", "___lonely_magic", ",", "___lonely_magic_fg", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "aivisura_love_like_you", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "lonely_magic_no", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7061,7 +7075,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_purple_yellow_fusion.mp4", ",", "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "06_mabe_village.mp4", ",", "07_Aivisura_Spotlight.mp4", ",", "07_Aivisura_touch.mp4", ",", "07_drawn_line_explosion_bwpink.mp4", ",", "08_whirl0.mov", ",", "08_whirl1.mov", ",", "08_whirl3.mov", ",", "08_whirl_close.mov", ",", "Ikenfell_walking.mp4", ",", "IkenfellBattles.mp4" ],
+                                    "items": [ "Dancing Loop FINAL2.mov", ",", "Reb Guitar Loop FINAL2.mov", ",", "Reb Walk Loop FINAL2.mov" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7490,7 +7504,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___lonely_magic", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_west", ",", "___lonely_magic", ",", "___lonely_magic_fg", ",", "__black", ",", "__bodies", ",", "__drawn", ",", "__jellyfish", ",", "__nature", ",", "__pills", ",", "__tech", ",", "aivisura_love_like_you", ",", "as_trackers", ",", "dance", ",", "flowers_mp4", ",", "food", ",", "fun", ",", "giphy_flowers", ",", "giphy_su", ",", "lonely_magic_no", ",", "paint", ",", "sammus", ",", "sammus_2", ",", "sammus_space", ",", "seals", ",", "tech", ",", "tech_blocky", ",", "tech_wavy" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -7566,7 +7580,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01 amalgam.mp4", ",", "02 wind rider.mp4", ",", "03 yuri on ice.mp4", ",", "04 love like you.mp4", ",", "05 petals in the wind (ikenfell gameplay).mp4", ",", "06 mabe village.mp4", ",", "07 here_s how.mp4", ",", "08 periphery.mp4" ],
+                                    "items": [ "04_fries.mp4", ",", "04_fries_frying.mp4", ",", "07_cookie.mp4", ",", "07_macarons.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -15164,6 +15178,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-39", 0 ],
+                    "source": [ "obj-50", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-64", 0 ],
                     "source": [ "obj-51", 0 ]
                 }
@@ -15437,17 +15457,9 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+        "bgcolor": [ 0.23921568627450981, 0.23921568627450981, 0.23921568627450981, 1.0 ]
     }
 }
