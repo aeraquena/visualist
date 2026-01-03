@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 467.0, 91.0, 1660.0, 955.0 ],
+        "rect": [ 34.0, 87.0, 2492.0, 959.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -19,7 +19,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "jit_matrix", "" ],
-                    "patching_rect": [ 639.4335330000001, 210.01199524999987, 79.0, 22.0 ],
+                    "patching_rect": [ 741.0, 230.0, 79.0, 22.0 ],
                     "text": "jit.alphablend"
                 }
             },
@@ -7058,7 +7058,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "Dancing Loop FINAL2.mov", ",", "Dancing Loop FINAL2_not transparent.mov", ",", "Dancing Loop FINAL2_processed.mov", ",", "Reb Guitar Loop FINAL2.mov", ",", "Reb Walk Loop FINAL2.mov" ],
+                                    "items": [ "01_purple_yellow_fusion.mp4", ",", "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04 love like you.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "06_mabe_village.mp4", ",", "07_Aivisura_Spotlight.mp4", ",", "07_Aivisura_touch.mp4", ",", "07_drawn_line_explosion_bwpink.mp4", ",", "08_whirl0.mov", ",", "08_whirl1.mov", ",", "08_whirl3.mov", ",", "08_whirl_close.mov", ",", "Ikenfell_walking.mp4", ",", "IkenfellBattles.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
