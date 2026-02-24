@@ -9,9 +9,35 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 2492.0, 959.0 ],
+        "rect": [ 865.0, 87.0, 1661.0, 959.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-269",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 521.0, 551.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 518.5, 550.2837133702278, 26.0, 20.0 ],
+                    "text": "4-2",
+                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-268",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 494.0, 349.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 489.5, 345.0, 26.0, 20.0 ],
+                    "text": "4-1",
+                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-280",
@@ -63,6 +89,28 @@
                         "classnamespace": "box",
                         "rect": [ 439.0, 367.0, 1622.0, 588.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-6",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 49.0, 18.0, 26.0, 20.0 ],
+                                    "text": "3-4",
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-5",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 18.0, 18.0, 26.0, 20.0 ],
+                                    "text": "3-3",
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-18",
@@ -383,6 +431,28 @@
                         "classnamespace": "box",
                         "rect": [ 439.0, 367.0, 1622.0, 588.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-6",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 49.0, 18.0, 26.0, 20.0 ],
+                                    "text": "3-2",
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-5",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 18.0, 18.0, 26.0, 20.0 ],
+                                    "text": "3-1",
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-18",
@@ -6982,6 +7052,46 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-19",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 240.56494099999998, 11.5, 26.0, 20.0 ],
+                                    "text": "2-4"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-18",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 183.27502400000003, 11.5, 26.0, 20.0 ],
+                                    "text": "2-3"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-17",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 116.984985, 11.5, 26.0, 20.0 ],
+                                    "text": "2-2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-16",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 57.85498000000001, 11.5, 26.0, 20.0 ],
+                                    "text": "2-1"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-13",
                                     "maxclass": "newobj",
                                     "numinlets": 6,
@@ -7897,7 +8007,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 454.0, 87.0, 902.0, 959.0 ],
+                        "rect": [ 69.0, 87.0, 902.0, 959.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -8202,7 +8312,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_space", ",", "gosh", ",", "lex", ",", "paint", ",", "sam" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_paint", ",", "_space", ",", "gosh", ",", "lex", ",", "sam_other", ",", "sam_pizza" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8278,7 +8388,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "!LEX Background Loop.mp4", ",", "01__male_model.mp4", ",", "01_chicken.mp4", ",", "01_gus_montage.mp4", ",", "01_gus_walk.mp4", ",", "02_breakfast.mp4", ",", "02_motel_neon.mp4", ",", "02_super_8.mp4", ",", "03_paragliding.mp4", ",", "03_paragliding_sun.mp4", ",", "04_dance_lights.mp4", ",", "04_dance_multiple.mp4", ",", "04_dance_pink.mp4", ",", "04_dance_white.mp4", ",", "05_sherlock.mp4", ",", "05_startrek.mp4", ",", "05_xfiles.mp4", ",", "06_confetti.mp4", ",", "06_party_adults.mp4", ",", "06_party_adults_2.mp4", ",", "06_party_cake_cups.mp4", ",", "06_party_girls.mp4", ",", "06_party_rave.mp4", ",", "06_party_shiny.mp4", ",", "06_party_table.mp4", ",", "06_train_mta.mp4", ",", "06_train_mta2.mp4", ",", "06_train_mta3.mp4", ",", "06_train_mta4.mp4", ",", "06_train_muni.mp4", ",", "__eyeblink.mov", ",", "__mouth_open_scream.mp4", ",", "_lips_shorter.mov" ],
+                                    "items": [ "03_box_delivery.mp4", ",", "03_box_delivery_2.mp4", ",", "03_delivery_bag.mp4", ",", "03_delivery_bag_2.mp4", ",", "05_box_pay.mp4", ",", "06_plates.mp4", ",", "06_red_paint_plate.mp4", ",", "08_pizza_heart.mp4", ",", "08_pizza_people_share.mp4", ",", "08_weird_pizza.mp4", ",", "09_empty_boxes.mp4", ",", "pizza_assembling.mp4", ",", "pizza_basil.mp4", ",", "pizza_cheese_assemble.mp4", ",", "pizza_dough_hands.mp4", ",", "pizza_guy_eating.mp4", ",", "pizza_margherita_olive_oil.mp4", ",", "pizza_move_back.mp4", ",", "pizza_move_forward.mp4", ",", "pizza_oven.mp4", ",", "pizza_pan_closeup.mp4", ",", "pizza_pepperoni_cut_closeup.mp4", ",", "pizza_pepperoni_rotate.mp4", ",", "pizza_rolling_dough.mp4", ",", "pizza_sauce.mp4", ",", "pizza_sauce_spoon.mp4", ",", "pizza_wheel_closeup.mp4", ",", "pizza_wheel_cut_side.mp4", ",", "pizza_wheel_cut_top.mp4", ",", "veggie_pizza.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8332,8 +8442,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 90.25, 608.0, 82.0, 22.0 ],
-                                    "text": "prepend read"
+                                    "patching_rect": [ 90.25, 608.0, 111.0, 22.0 ],
+                                    "text": "prepend asyncread"
                                 }
                             },
                             {
@@ -8622,7 +8732,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 316.0, -1.0, 235.0, 173.0 ],
+                    "patching_rect": [ 183.20105, 175.87665212499996, 235.0, 173.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 15.0, 201.0, 122.0 ],
                     "viewvisibility": 1
@@ -8654,7 +8764,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 87.0, 1212.0, 687.0 ],
+                        "rect": [ 261.0, 87.0, 1212.0, 687.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -8817,7 +8927,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_space", ",", "gosh", ",", "lex", ",", "paint", ",", "sam" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_paint", ",", "_space", ",", "gosh", ",", "lex", ",", "sam_other", ",", "sam_pizza" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8893,7 +9003,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_butter.mp4", ",", "01_butter_2.mp4", ",", "02_beach.mp4", ",", "02_beach2.mp4", ",", "02_capsules.mp4", ",", "02_pill_blue.mp4", ",", "02_pill_pink.mp4", ",", "02_pills.mp4", ",", "02_pills_many_short.mp4", ",", "03_dog_window.mp4", ",", "03_dog_window_brown.mp4", ",", "03_dog_window_close.mp4", ",", "03_dog_window_outside.mp4", ",", "03_dog_window_outside_far.mp4", ",", "03_pom.mp4", ",", "04_bumblebee.mp4", ",", "04_lemon_lime.mp4", ",", "04_mango.mp4", ",", "04_orange.mp4", ",", "05_bed_feet.mp4", ",", "06__gif_burger.mov", ",", "06_burger_assemble.mp4", ",", "07_feet_swing.mp4", ",", "07_toddler_feet.mp4", ",", "07_toddler_feet_rainbow.mp4", ",", "__gif_chip.mov", ",", "__gif_nacho.mov", ",", "__gif_popsicle.mov", ",", "__gummy_worms.mp4", ",", "__hotdog.mp4", ",", "__hotdog_food.mp4", ",", "__orange_crush.mp4", ",", "__sushi_neon.mp4", ",", "jellyfish_dance_fast.mp4", ",", "pileated.mp4", ",", "space.mp4", ",", "space_blue2red.mp4", ",", "space_red.mp4", ",", "space_z__blue_pink.mp4" ],
+                                    "items": [ "03_box_delivery.mp4", ",", "03_box_delivery_2.mp4", ",", "03_clock.mp4", ",", "03_delivery_bag.mp4", ",", "03_delivery_bag_2.mp4", ",", "03_dominos_tracker.mp4", ",", "05_box_pay.mp4", ",", "06_plates.mp4", ",", "06_red_paint_plate.mp4", ",", "08_pizza_heart.mp4", ",", "08_pizza_people_share.mp4", ",", "08_weird_pizza.mp4", ",", "09_empty_boxes.mp4", ",", "pizza_assembling.mp4", ",", "pizza_basil.mp4", ",", "pizza_cheese_assemble.mp4", ",", "pizza_dough_hands.mp4", ",", "pizza_guy_eating.mp4", ",", "pizza_margherita_olive_oil.mp4", ",", "pizza_move_back.mp4", ",", "pizza_move_forward.mp4", ",", "pizza_oven.mp4", ",", "pizza_pan_closeup.mp4", ",", "pizza_pepperoni_cut_closeup.mp4", ",", "pizza_pepperoni_rotate.mp4", ",", "pizza_rolling_dough.mp4", ",", "pizza_sauce.mp4", ",", "pizza_sauce_spoon.mp4", ",", "pizza_wheel_closeup.mp4", ",", "pizza_wheel_cut_side.mp4", ",", "pizza_wheel_cut_top.mp4", ",", "veggie_pizza.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8947,8 +9057,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 90.25, 623.0, 82.0, 22.0 ],
-                                    "text": "prepend read"
+                                    "patching_rect": [ 90.25, 623.0, 111.0, 22.0 ],
+                                    "text": "prepend asyncread"
                                 }
                             },
                             {
@@ -9348,6 +9458,46 @@
                         "classnamespace": "box",
                         "rect": [ 275.0, 362.0, 1622.0, 588.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-19",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 240.56494099999998, 11.5, 26.0, 20.0 ],
+                                    "text": "1-4"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-18",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 183.27502400000003, 11.5, 26.0, 20.0 ],
+                                    "text": "1-3"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-17",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 116.984985, 11.5, 26.0, 20.0 ],
+                                    "text": "1-2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-16",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 57.85498000000001, 11.5, 26.0, 20.0 ],
+                                    "text": "1-1"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-13",
@@ -17198,14 +17348,6 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
