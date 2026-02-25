@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 865.0, 87.0, 1661.0, 959.0 ],
+        "rect": [ 111.0, 87.0, 2205.0, 959.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -46,7 +46,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1010.0, 603.0323325000005, 50.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1500.8004216698605, 12.0, 50.0, 20.0 ],
+                    "presentation_rect": [ 1031.0, 9.0, 50.0, 20.0 ],
                     "text": "slide on"
                 }
             },
@@ -324,7 +324,7 @@
                     },
                     "patching_rect": [ 985.0, 690.0323325000005, 55.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1485.8004216698605, 37.0, 81.0, 186.0 ],
+                    "presentation_rect": [ 1016.0, 34.0, 81.0, 186.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -338,7 +338,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 986.0, 603.0323325000005, 20.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1476.8004216698605, 12.0, 20.0, 20.0 ]
+                    "presentation_rect": [ 1007.0, 9.0, 20.0, 20.0 ]
                 }
             },
             {
@@ -388,7 +388,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 2083.0, 21.386230000000012, 50.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1381.0, 10.0, 50.0, 20.0 ],
+                    "presentation_rect": [ 911.0, 7.0, 50.0, 20.0 ],
                     "text": "slide on"
                 }
             },
@@ -666,7 +666,7 @@
                     },
                     "patching_rect": [ 2057.5, 109.0, 55.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1360.0, 32.0, 81.0, 186.0 ],
+                    "presentation_rect": [ 890.0, 29.0, 81.0, 186.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -8312,7 +8312,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_paint", ",", "_space", ",", "gosh", ",", "lex", ",", "sam_other", ",", "sam_pizza" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_paint", ",", "gosh", ",", "lex", ",", "sam_other", ",", "sam_pizza", ",", "space" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8388,7 +8388,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "03_box_delivery.mp4", ",", "03_box_delivery_2.mp4", ",", "03_delivery_bag.mp4", ",", "03_delivery_bag_2.mp4", ",", "05_box_pay.mp4", ",", "06_plates.mp4", ",", "06_red_paint_plate.mp4", ",", "08_pizza_heart.mp4", ",", "08_pizza_people_share.mp4", ",", "08_weird_pizza.mp4", ",", "09_empty_boxes.mp4", ",", "pizza_assembling.mp4", ",", "pizza_basil.mp4", ",", "pizza_cheese_assemble.mp4", ",", "pizza_dough_hands.mp4", ",", "pizza_guy_eating.mp4", ",", "pizza_margherita_olive_oil.mp4", ",", "pizza_move_back.mp4", ",", "pizza_move_forward.mp4", ",", "pizza_oven.mp4", ",", "pizza_pan_closeup.mp4", ",", "pizza_pepperoni_cut_closeup.mp4", ",", "pizza_pepperoni_rotate.mp4", ",", "pizza_rolling_dough.mp4", ",", "pizza_sauce.mp4", ",", "pizza_sauce_spoon.mp4", ",", "pizza_wheel_closeup.mp4", ",", "pizza_wheel_cut_side.mp4", ",", "pizza_wheel_cut_top.mp4", ",", "veggie_pizza.mp4" ],
+                                    "items": [ "01_purple_yellow_fusion.mp4", ",", "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04 love like you.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "06_mabe_village.mp4", ",", "07_Aivisura_Spotlight.mp4", ",", "07_Aivisura_touch.mp4", ",", "07_drawn_line_explosion_bwpink.mp4", ",", "08_whirl0.mov", ",", "08_whirl1.mov", ",", "08_whirl3.mov", ",", "08_whirl_close.mov", ",", "Ikenfell_walking.mp4", ",", "IkenfellBattles.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8732,7 +8732,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 183.20105, 175.87665212499996, 235.0, 173.0 ],
+                    "patching_rect": [ 179.0, 175.87665212499996, 235.0, 173.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 15.0, 201.0, 122.0 ],
                     "viewvisibility": 1
@@ -8927,7 +8927,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_paint", ",", "_space", ",", "gosh", ",", "lex", ",", "sam_other", ",", "sam_pizza" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "_paint", ",", "gosh", ",", "lex", ",", "sam_other", ",", "sam_pizza", ",", "space" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -9003,7 +9003,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "03_box_delivery.mp4", ",", "03_box_delivery_2.mp4", ",", "03_clock.mp4", ",", "03_delivery_bag.mp4", ",", "03_delivery_bag_2.mp4", ",", "03_dominos_tracker.mp4", ",", "05_box_pay.mp4", ",", "06_plates.mp4", ",", "06_red_paint_plate.mp4", ",", "08_pizza_heart.mp4", ",", "08_pizza_people_share.mp4", ",", "08_weird_pizza.mp4", ",", "09_empty_boxes.mp4", ",", "pizza_assembling.mp4", ",", "pizza_basil.mp4", ",", "pizza_cheese_assemble.mp4", ",", "pizza_dough_hands.mp4", ",", "pizza_guy_eating.mp4", ",", "pizza_margherita_olive_oil.mp4", ",", "pizza_move_back.mp4", ",", "pizza_move_forward.mp4", ",", "pizza_oven.mp4", ",", "pizza_pan_closeup.mp4", ",", "pizza_pepperoni_cut_closeup.mp4", ",", "pizza_pepperoni_rotate.mp4", ",", "pizza_rolling_dough.mp4", ",", "pizza_sauce.mp4", ",", "pizza_sauce_spoon.mp4", ",", "pizza_wheel_closeup.mp4", ",", "pizza_wheel_cut_side.mp4", ",", "pizza_wheel_cut_top.mp4", ",", "veggie_pizza.mp4" ],
+                                    "items": [ "01_purple_yellow_fusion.mp4", ",", "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04 love like you.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "06_mabe_village.mp4", ",", "07_Aivisura_Spotlight.mp4", ",", "07_Aivisura_touch.mp4", ",", "07_drawn_line_explosion_bwpink.mp4", ",", "08_whirl0.mov", ",", "08_whirl1.mov", ",", "08_whirl3.mov", ",", "08_whirl_close.mov", ",", "Ikenfell_walking.mp4", ",", "IkenfellBattles.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -14863,7 +14863,7 @@
                     "outlettype": [ "jit_matrix", "" ],
                     "patching_rect": [ 4114.0, 129.0, 80.0, 60.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 891.042749500679, 8.84375011920929, 444.0, 250.0 ],
+                    "presentation_rect": [ 1118.0, 9.0, 444.0, 250.0 ],
                     "sync": 1
                 }
             },
@@ -15980,7 +15980,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 2059.0, 21.386230000000012, 20.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1359.0, 10.0, 20.0, 20.0 ]
+                    "presentation_rect": [ 889.0, 7.0, 20.0, 20.0 ]
                 }
             },
             {
@@ -16033,7 +16033,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1357.0, 13.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1359.0, 10.0, 94.0, 213.0 ],
+                    "presentation_rect": [ 889.0, 7.0, 94.0, 213.0 ],
                     "proportion": 0.39
                 }
             },
@@ -16048,7 +16048,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1494.0, 14.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1478.8004216698605, 11.0, 94.0, 213.0 ],
+                    "presentation_rect": [ 1009.0, 8.0, 94.0, 213.0 ],
                     "proportion": 0.39
                 }
             }
@@ -17348,6 +17348,14 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
