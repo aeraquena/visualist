@@ -13,7 +13,6 @@
         "boxes": [
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-95",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -26,7 +25,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-94",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -39,21 +37,20 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-93",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 673.0, 231.0, 150.0, 20.0 ],
+                    "patching_rect": [ 673.0, 231.0, 150.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 672.0, 228.0, 79.0, 33.0 ],
-                    "text": "low = more definition"
+                    "presentation_linecount": 3,
+                    "presentation_rect": [ 672.0, 228.0, 79.0, 47.0 ],
+                    "text": "low = more definition. keep high"
                 }
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-92",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -66,7 +63,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-91",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -79,7 +75,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-90",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -92,7 +87,6 @@
             },
             {
                 "box": {
-                    "hidden": 1,
                     "id": "obj-89",
                     "maxclass": "comment",
                     "numinlets": 1,

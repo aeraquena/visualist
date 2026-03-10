@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 42.0, 95.0, 2476.0, 944.0 ],
+        "rect": [ 34.0, 100.0, 1660.0, 983.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -8026,7 +8026,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 69.0, 87.0, 902.0, 959.0 ],
+                        "rect": [ 69.0, 100.0, 902.0, 959.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -8171,7 +8171,7 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 135.625, 73.0, 50.0, 22.0 ]
+                                    "patching_rect": [ 212.0, 74.0, 50.0, 22.0 ]
                                 }
                             },
                             {
@@ -8331,7 +8331,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___as_trackers", ",", "___love_like_you", ",", "___miles", ",", "aivi_old", ",", "aivisura_west", ",", "paint", ",", "ubersketch" ],
+                                    "items": [ "___aivisura", ",", "___as_trackers", ",", "___miles", ",", "aivi_old", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "paint", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8407,7 +8407,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "07_flower_slash.mp4", ",", "07_guillotine_lyrics_1.png", ",", "07_guillotine_lyrics_2.png", ",", "07_rose_explode.mp4", ",", "09_aivi & surasshu logo white.png", ",", "09_Characters1280.png", ",", "09_drawn_blue_curls.mp4", ",", "09_drawn_purpleyellowshapeonwhite.mp4", ",", "10_YuriOnIceCut.mp4", ",", "12_katamari_short.mp4", ",", "flower_blue_bg.mp4", ",", "flowers_bw.mp4", ",", "red_rose.mp4", ",", "rose_petals.mp4", ",", "rose_pink.mp4", ",", "space.mp4", ",", "space_blue2red.mp4", ",", "space_red.mp4" ],
+                                    "items": [ "07_flower_slash.mp4", ",", "07_rose_explode.mp4", ",", "08_rose_petals.mp4", ",", "09_aivi & surasshu logo white.png", ",", "09_Characters1280.png", ",", "09_drawn_blue_curls.mp4", ",", "09_drawn_purpleyellowshapeonwhite.mp4", ",", "09_space_blue2red.mp4", ",", "10_YuriOnIceCut.mp4", ",", "11_red_rose.mp4", ",", "12_katamari_short.mp4", ",", "flower_blue_bg.mp4", ",", "flowers_bw.mp4", ",", "rose_pink.mp4", ",", "space.mp4", ",", "space_red.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8783,8 +8783,21 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 261.0, 87.0, 1212.0, 687.0 ],
+                        "rect": [ 134.0, 172.0, 1212.0, 687.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-20",
+                                    "maxclass": "number",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "bang" ],
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 143.25, 66.0, 50.0, 22.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 143.25, 66.0, 50.0, 22.0 ]
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-9",
@@ -8946,7 +8959,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___as_trackers", ",", "___love_like_you", ",", "___miles", ",", "aivi_old", ",", "aivisura_west", ",", "paint", ",", "ubersketch" ],
+                                    "items": [ "___aivisura", ",", "___as_trackers", ",", "___miles", ",", "aivi_old", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "paint", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -9022,7 +9035,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "08 periphery.mp4", ",", "09 wind rider.mp4", ",", "10 yuri on ice.mp4", ",", "11 love like you.mp4", ",", "12 lonely rolling star.mp4" ],
+                                    "items": [ "07_blank.png", ",", "07_guillotine_lyrics_1.png", ",", "07_guillotine_lyrics_2.png", ",", "08 periphery.mp4", ",", "09 wind rider.mp4", ",", "10 yuri on ice.mp4", ",", "11 love like you.mp4", ",", "12 lonely rolling star.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -9183,6 +9196,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-14", 0 ],
+                                    "source": [ "obj-20", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-16", 0 ],
                                     "order": 1,
                                     "source": [ "obj-21", 0 ]
@@ -9282,7 +9301,7 @@
                     },
                     "patching_rect": [ 235.70105, 437.3154367499998, 144.513184, 94.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 14.0, 320.0, 188.0, 87.0 ],
+                    "presentation_rect": [ -1.0, 312.0, 198.5, 89.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -17084,14 +17103,6 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
