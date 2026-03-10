@@ -9,8 +9,143 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 254.0, 100.0, 1660.0, 983.0 ],
+        "rect": [ 651.0, 100.0, 1019.0, 983.0 ],
         "boxes": [
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-95",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 922.0, 224.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 919.5, 228.0, 79.0, 20.0 ],
+                    "text": "line width"
+                }
+            },
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-94",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 746.0, 220.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 760.5, 228.0, 79.0, 20.0 ],
+                    "text": "num edges"
+                }
+            },
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-93",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 673.0, 231.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 672.0, 228.0, 79.0, 33.0 ],
+                    "text": "low = more definition"
+                }
+            },
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-92",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 605.0, 249.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 598.0, 228.0, 79.0, 20.0 ],
+                    "text": "num points"
+                }
+            },
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-91",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 541.0, 231.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 501.0, 228.0, 79.0, 20.0 ],
+                    "text": "dimensions y"
+                }
+            },
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-90",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 448.0, 228.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 414.0, 228.0, 79.0, 20.0 ],
+                    "text": "dimensions x"
+                }
+            },
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-89",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 845.0, 237.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 845.0, 228.0, 64.0, 20.0 ],
+                    "text": "more lines"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-85",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1050.0, 62.0, 150.0, 20.0 ],
+                    "text": "pink flower 5 petals"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-83",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1024.0, 60.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-81",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1078.0, 107.0, 29.5, 22.0 ],
+                    "text": "25"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-41",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1035.0, 107.0, 32.0, 22.0 ],
+                    "text": "16.5"
+                }
+            },
             {
                 "box": {
                     "bgmode": 0,
@@ -418,7 +553,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "03_cactus_flower.mp4", ",", "06_eyeblink.mov", ",", "_flower_short.mp4", ",", "flower_blue_bg.mp4", ",", "flowers_bw.mp4", ",", "red_rose.mp4", ",", "rose_petals.mp4", ",", "rose_pink.mp4" ],
+                                    "items": [ "03_cactus_flower.mp4", ",", "06_eyeblink.mov", ",", "black_white_flowers.mp4", ",", "blue_flower.mp4", ",", "blue_flowers_many.mp4", ",", "pink_6_pointed.mp4", ",", "pink_hot_2.mp4", ",", "pink_lilies_2.mp4", ",", "pink_lily.mp4", ",", "pink_rose.mp4", ",", "red_rose.mp4", ",", "red_yellow_flower.mp4", ",", "red_yellow_flower_closeup.mp4", ",", "white_flower.mp4", ",", "white_fuzzy_flower.mp4", ",", "white_lily.mp4", ",", "white_sideways.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -948,7 +1083,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 967.0, 297.0, 50.0, 22.0 ]
+                    "patching_rect": [ 933.0, 122.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -960,7 +1095,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 891.0, 301.0, 50.0, 22.0 ]
+                    "patching_rect": [ 857.0, 126.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -970,7 +1105,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 914.0, 350.0, 55.0, 22.0 ],
+                    "patching_rect": [ 880.0, 175.0, 55.0, 22.0 ],
                     "text": "pak 0. 0."
                 }
             },
@@ -1220,7 +1355,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 692.0, 402.0, 206.0, 22.0 ],
+                    "patching_rect": [ 696.0, 402.5, 206.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 224.0, 200.0, 206.0, 22.0 ]
                 }
@@ -1899,6 +2034,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-60", 0 ],
+                    "source": [ "obj-41", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-35", 0 ],
                     "source": [ "obj-42", 0 ]
                 }
@@ -1977,6 +2118,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-38", 0 ],
+                    "source": [ "obj-60", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-60", 0 ],
                     "source": [ "obj-64", 0 ]
                 }
@@ -2015,6 +2162,26 @@
                 "patchline": {
                     "destination": [ "obj-49", 0 ],
                     "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-60", 1 ],
+                    "source": [ "obj-81", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-41", 0 ],
+                    "order": 1,
+                    "source": [ "obj-83", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-81", 0 ],
+                    "order": 0,
+                    "source": [ "obj-83", 0 ]
                 }
             },
             {
