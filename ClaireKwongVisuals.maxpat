@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1660.0, 983.0 ],
+        "rect": [ 42.0, 95.0, 2476.0, 944.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -8331,7 +8331,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "__eyeblink.mov", ",", "__flowers", ",", "_paint" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___as_trackers", ",", "___love_like_you", ",", "___miles", ",", "aivi_old", ",", "aivisura_west", ",", "paint", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8407,7 +8407,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04 love like you.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "07_guillotine.mp4", ",", "07_guillotine_lyrics_1.png", ",", "07_guillotine_lyrics_2.png", ",", "07_protest.mp4", ",", "__eyeblink.mov" ],
+                                    "items": [ "07_flower_slash.mp4", ",", "07_guillotine_lyrics_1.png", ",", "07_guillotine_lyrics_2.png", ",", "07_rose_explode.mp4", ",", "09_aivi & surasshu logo white.png", ",", "09_Characters1280.png", ",", "09_drawn_blue_curls.mp4", ",", "09_drawn_purpleyellowshapeonwhite.mp4", ",", "10_YuriOnIceCut.mp4", ",", "12_katamari_short.mp4", ",", "flower_blue_bg.mp4", ",", "flowers_bw.mp4", ",", "red_rose.mp4", ",", "rose_petals.mp4", ",", "rose_pink.mp4", ",", "space.mp4", ",", "space_blue2red.mp4", ",", "space_red.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -8946,7 +8946,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___aivisura_west", ",", "___as_trackers", ",", "___love_like_you", ",", "___ubersketch", ",", "__eyeblink.mov", ",", "__flowers", ",", "_paint" ],
+                                    "items": [ "___aivisura", ",", "___aivisura_love_like_you", ",", "___as_trackers", ",", "___love_like_you", ",", "___miles", ",", "aivi_old", ",", "aivisura_west", ",", "paint", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -9022,7 +9022,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "02_aivi & surasshu logo white.png", ",", "02_Characters1280.png", ",", "02_drawn_blue_curls.mp4", ",", "02_drawn_purpleyellowshapeonwhite.mp4", ",", "03_YuriOnIceCut.mp4", ",", "04 love like you.mp4", ",", "04_red_rose.mp4", ",", "04_rose_black.mp4", ",", "05_rose_petals.mp4", ",", "07_guillotine.mp4", ",", "07_guillotine_lyrics_1.png", ",", "07_guillotine_lyrics_2.png", ",", "07_protest.mp4", ",", "__eyeblink.mov" ],
+                                    "items": [ "08 periphery.mp4", ",", "09 wind rider.mp4", ",", "10 yuri on ice.mp4", ",", "11 love like you.mp4", ",", "12 lonely rolling star.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -17084,6 +17084,14 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
