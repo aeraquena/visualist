@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 208.0, 100.0, 1240.0, 983.0 ],
+        "rect": [ 34.0, 87.0, 2492.0, 959.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-75",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "jit_matrix", "bang", "" ],
+                    "patching_rect": [ 157.0, 40.0, 354.0, 22.0 ],
+                    "text": "jit.world myworld @fullscreen 1 @enable 1 @erase_color 0 0 0 1"
+                }
+            },
             {
                 "box": {
                     "id": "obj-71",
@@ -96,7 +107,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 644.0, 268.0, 150.0, 20.0 ],
+                    "patching_rect": [ 1364.0, 866.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 627.0, 197.0, 111.0, 20.0 ],
                     "text": "should always be 0"
@@ -108,7 +119,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 412.0, 260.0, 150.0, 20.0 ],
+                    "patching_rect": [ 1132.0, 858.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 503.0, 197.0, 111.0, 20.0 ],
                     "text": "should always be 0"
@@ -316,84 +327,11 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.999993324279785, 0.999963343143463, 0.041014768183231, 1.0 ],
-                    "id": "obj-41",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 29.0, 20.0, 72.0, 20.0 ],
-                    "text": "THE BANG"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Arial",
-                    "fontsize": 12.0,
-                    "id": "obj-181",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 30.0, 131.0, 68.0, 22.0 ],
-                    "text": "s thebang2"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Arial",
-                    "fontsize": 10.0,
-                    "id": "obj-597",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 29.0, 47.0, 52.0, 20.0 ],
-                    "text": "loadbang"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Arial",
-                    "fontsize": 11.595187,
-                    "id": "obj-667",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 29.0, 98.0, 69.0, 21.0 ],
-                    "text": "qmetro 100"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-668",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 29.0, 76.0, 20.0, 20.0 ]
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "bgcolor": [ 0.799996554851532, 0.800020575523376, 0.800006866455078, 1.0 ],
-                    "id": "obj-142",
-                    "maxclass": "panel",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 16.0, 15.0, 94.0, 150.13748199999992 ],
-                    "proportion": 0.5
-                }
-            },
-            {
-                "box": {
                     "id": "obj-40",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 766.0, 220.0, 47.0, 22.0 ],
+                    "patching_rect": [ 632.0, 263.0, 47.0, 22.0 ],
                     "text": "s video"
                 }
             },
@@ -426,17 +364,6 @@
             },
             {
                 "box": {
-                    "id": "obj-36",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 608.0, 21.0, 66.0, 22.0 ],
-                    "text": "r thebang2"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-34",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -454,9 +381,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "jit_matrix", "" ],
-                    "patching_rect": [ 536.0, 74.0, 53.0, 22.0 ],
-                    "text": "jit.movie"
+                    "outlettype": [ "jit_gl_texture", "" ],
+                    "patching_rect": [ 536.0, 74.0, 203.0, 22.0 ],
+                    "text": "jit.movie myworld @output_texture 1"
                 }
             },
             {
@@ -677,7 +604,7 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1357.0, 308.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1364.0, 304.0, 97.0, 22.0 ],
                     "text": "scale 0 127 0. 1."
                 }
             },
@@ -688,7 +615,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 1357.0, 280.0, 47.0, 22.0 ],
+                    "patching_rect": [ 1364.0, 276.0, 47.0, 22.0 ],
                     "text": "ctlin 49"
                 }
             },
@@ -703,24 +630,6 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 341.0, 136.0, 80.0, 36.0 ]
-                }
-            },
-            {
-                "box": {
-                    "auto_handle": 0,
-                    "enable": 1,
-                    "erase_color": [ 0.0, 0.0, 0.0, 1.0 ],
-                    "fps": 30.0,
-                    "gizmos": 0,
-                    "id": "obj-1",
-                    "maxclass": "jit.pworld",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "jit_matrix", "" ],
-                    "patching_rect": [ 16.0, 317.0, 863.0, 646.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 16.0, 317.0, 863.0, 646.0 ],
-                    "sync": 1
                 }
             },
             {
@@ -751,8 +660,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1177.0, 765.0, 157.0, 22.0 ],
-                    "text": "jit.gl.layer @blend_enable 0"
+                    "patching_rect": [ 1177.0, 765.0, 205.0, 22.0 ],
+                    "text": "jit.gl.layer myworld @blend_enable 0"
                 }
             },
             {
@@ -823,11 +732,11 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "jit_gl_texture" ],
-                    "patching_rect": [ 1149.0, 730.0, 503.0, 22.0 ],
+                    "patching_rect": [ 1149.0, 730.0, 551.0, 22.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0
                     },
-                    "text": "jit.fx.ge.pattern @indimscale 0.25 0.25 @mode 1 @line_fade 3. @radius 0.2 @line_width 1.5",
+                    "text": "jit.fx.ge.pattern myworld @indimscale 0.25 0.25 @mode 1 @line_fade 3. @radius 0.2 @line_width 1.5",
                     "textfile": {
                         "filename": "jit.fx.ge.pattern.js",
                         "flags": 0,
@@ -955,12 +864,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-98", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-32", 0 ],
@@ -1121,12 +1024,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-31", 0 ],
-                    "source": [ "obj-36", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-52", 0 ],
                     "source": [ "obj-37", 0 ]
                 }
@@ -1223,12 +1120,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-668", 0 ],
-                    "source": [ "obj-597", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "order": 1,
                     "source": [ "obj-6", 0 ]
@@ -1245,19 +1136,6 @@
                 "patchline": {
                     "destination": [ "obj-60", 0 ],
                     "source": [ "obj-64", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-181", 0 ],
-                    "source": [ "obj-667", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "color": [ 0.0, 0.0, 0.0, 1.0 ],
-                    "destination": [ "obj-667", 0 ],
-                    "source": [ "obj-668", 0 ]
                 }
             },
             {
@@ -1282,6 +1160,12 @@
                 "patchline": {
                     "destination": [ "obj-70", 0 ],
                     "source": [ "obj-71", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-98", 0 ],
+                    "source": [ "obj-75", 0 ]
                 }
             },
             {
