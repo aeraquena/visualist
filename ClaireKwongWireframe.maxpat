@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 651.0, 100.0, 1019.0, 983.0 ],
+        "rect": [ 619.0, 114.0, 1019.0, 983.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-82",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1207.0, 1084.0, 139.0, 22.0 ],
+                    "text": "jit.gl.videoplane myworld"
+                }
+            },
             {
                 "box": {
                     "id": "obj-95",
@@ -903,7 +914,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 692.0, 537.0, 150.0, 20.0 ],
+                    "patching_rect": [ 553.0, 937.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 946.0, 201.0, 26.0, 20.0 ],
                     "text": "3-7"
@@ -915,7 +926,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 594.0, 539.0, 150.0, 20.0 ],
+                    "patching_rect": [ 455.0, 939.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 845.0, 201.0, 26.0, 20.0 ],
                     "text": "3-6"
@@ -927,7 +938,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 519.0, 535.0, 150.0, 20.0 ],
+                    "patching_rect": [ 380.0, 935.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 775.0, 201.0, 26.0, 20.0 ],
                     "text": "3-5"
@@ -939,7 +950,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 451.0, 539.0, 150.0, 20.0 ],
+                    "patching_rect": [ 312.0, 939.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 702.0, 201.0, 26.0, 20.0 ],
                     "text": "3-4"
@@ -951,7 +962,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 384.0, 538.0, 150.0, 20.0 ],
+                    "patching_rect": [ 245.0, 938.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 639.0, 201.0, 26.0, 20.0 ],
                     "text": "3-3"
@@ -963,7 +974,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 302.0, 536.0, 150.0, 20.0 ],
+                    "patching_rect": [ 163.0, 936.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 557.0, 201.0, 26.0, 20.0 ],
                     "text": "3-2"
@@ -975,7 +986,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 214.0, 547.0, 150.0, 20.0 ],
+                    "patching_rect": [ 75.0, 947.0, 150.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 470.0, 201.0, 26.0, 20.0 ],
                     "text": "3-1"
@@ -1064,7 +1075,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 656.0, 303.0, 34.0, 22.0 ],
+                    "patching_rect": [ 746.0, 287.0, 34.0, 22.0 ],
                     "text": "vol 0"
                 }
             },
@@ -1323,7 +1334,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 587.0, 504.0, 47.0, 22.0 ],
+                    "patching_rect": [ 582.0, 518.0, 47.0, 22.0 ],
                     "text": "s video"
                 }
             },
@@ -1334,7 +1345,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "jit_matrix", "" ],
-                    "patching_rect": [ 491.0, 344.0, 186.0, 139.0 ],
+                    "patching_rect": [ 469.0, 351.0, 186.0, 139.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 224.0, 44.0, 186.0, 139.0 ],
                     "sync": 1
@@ -1374,7 +1385,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "jit_gl_texture", "" ],
-                    "patching_rect": [ 491.0, 315.0, 203.0, 22.0 ],
+                    "patching_rect": [ 514.5, 303.0, 203.0, 22.0 ],
                     "text": "jit.movie myworld @output_texture 1"
                 }
             },
@@ -1630,7 +1641,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 1132.0, 1006.0, 205.0, 22.0 ],
+                    "patching_rect": [ 1212.0, 1012.0, 205.0, 22.0 ],
                     "text": "jit.gl.layer myworld @blend_enable 0"
                 }
             },
@@ -1963,6 +1974,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-39", 0 ],
+                    "order": 1,
+                    "source": [ "obj-31", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 0 ],
+                    "order": 0,
                     "source": [ "obj-31", 0 ]
                 }
             },
@@ -2016,12 +2035,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-40", 0 ],
-                    "source": [ "obj-39", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-50", 0 ],
                     "source": [ "obj-4", 0 ]
                 }
@@ -2046,7 +2059,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-56", 0 ],
+                    "destination": [ "obj-82", 0 ],
                     "source": [ "obj-48", 0 ]
                 }
             },
