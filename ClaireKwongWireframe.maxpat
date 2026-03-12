@@ -9,8 +9,30 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 619.0, 114.0, 1019.0, 983.0 ],
+        "rect": [ 34.0, 100.0, 1660.0, 983.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-87",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "jit_matrix", "bang", "" ],
+                    "patching_rect": [ 8.0, 577.0, 569.0, 22.0 ],
+                    "text": "jit.world myworld2 @fullscreen 1 @enable 1 @erase_color 0 0 0 1 @fsmenubar 0 @shared 1 @floating 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-84",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1074.0, 1117.0, 146.0, 22.0 ],
+                    "text": "jit.gl.videoplane myworld2"
+                }
+            },
             {
                 "box": {
                     "id": "obj-82",
@@ -558,7 +580,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "03_cactus_flower.mp4", ",", "06_eyeblink.mov", ",", "black_white_flowers.mp4", ",", "blue_flower.mp4", ",", "blue_flowers_many.mp4", ",", "pink_6_pointed.mp4", ",", "pink_hot_2.mp4", ",", "pink_lilies_2.mp4", ",", "pink_lily.mp4", ",", "pink_rose.mp4", ",", "red_rose.mp4", ",", "red_yellow_flower.mp4", ",", "red_yellow_flower_closeup.mp4", ",", "white_flower.mp4", ",", "white_fuzzy_flower.mp4", ",", "white_lily.mp4", ",", "white_sideways.mp4" ],
+                                    "items": [ "07_flower_slash.mp4", ",", "07_rose_explode.mp4", ",", "08_rose_petals.mp4", ",", "09_aivi & surasshu logo white.png", ",", "09_Characters1280.png", ",", "09_drawn_blue_curls.mp4", ",", "09_drawn_purpleyellowshapeonwhite.mp4", ",", "09_space_blue2red.mp4", ",", "10_YuriOnIceCut.mp4", ",", "11_red_rose.mp4", ",", "12_katamari_short.mp4", ",", "flower_blue_bg.mp4", ",", "flowers_bw.mp4", ",", "rose_pink.mp4", ",", "space.mp4", ",", "space_red.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -1053,8 +1075,8 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "jit_matrix", "bang", "" ],
-                    "patching_rect": [ 27.0, 293.0, 436.0, 22.0 ],
-                    "text": "jit.world myworld @fullscreen 1 @enable 1 @erase_color 0 0 0 1 @fsmenubar 0"
+                    "patching_rect": [ 11.5, 512.0, 498.0, 22.0 ],
+                    "text": "jit.world myworld @fullscreen 1 @enable 1 @erase_color 0 0 0 1 @fsmenubar 0 @shared 1"
                 }
             },
             {
@@ -1602,29 +1624,6 @@
             },
             {
                 "box": {
-                    "fontface": 0,
-                    "fontname": "Arial",
-                    "fontsize": 13.0,
-                    "id": "obj-98",
-                    "maxclass": "jit.fpsgui",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 296.0, 377.0, 80.0, 36.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-47",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 289.0, 344.0, 150.0, 20.0 ],
-                    "text": "jit.pworld"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-57",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -1632,17 +1631,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1042.0, 929.0, 45.0, 22.0 ],
                     "text": "r video"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-56",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 1212.0, 1012.0, 205.0, 22.0 ],
-                    "text": "jit.gl.layer myworld @blend_enable 0"
                 }
             },
             {
@@ -2060,6 +2048,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-82", 0 ],
+                    "order": 0,
+                    "source": [ "obj-48", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-84", 0 ],
+                    "order": 1,
                     "source": [ "obj-48", 0 ]
                 }
             },
@@ -2157,12 +2153,6 @@
                 "patchline": {
                     "destination": [ "obj-70", 0 ],
                     "source": [ "obj-71", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-98", 0 ],
-                    "source": [ "obj-75", 0 ]
                 }
             },
             {
