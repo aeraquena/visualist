@@ -580,7 +580,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "07_flower_slash.mp4", ",", "07_rose_explode.mp4", ",", "08_rose_petals.mp4", ",", "09_aivi & surasshu logo white.png", ",", "09_Characters1280.png", ",", "09_drawn_blue_curls.mp4", ",", "09_drawn_purpleyellowshapeonwhite.mp4", ",", "09_space_blue2red.mp4", ",", "10_YuriOnIceCut.mp4", ",", "11_red_rose.mp4", ",", "12_katamari_short.mp4", ",", "flower_blue_bg.mp4", ",", "flowers_bw.mp4", ",", "rose_pink.mp4", ",", "space.mp4", ",", "space_red.mp4" ],
+                                    "items": [ "03_cactus_flower.mp4", ",", "06_eyeblink.mov", ",", "black_white_flowers.mp4", ",", "blue_flower.mp4", ",", "blue_flowers_many.mp4", ",", "pink_6_pointed.mp4", ",", "pink_hot_2.mp4", ",", "pink_lilies_2.mp4", ",", "pink_lily.mp4", ",", "pink_rose.mp4", ",", "red_rose.mp4", ",", "red_yellow_flower.mp4", ",", "red_yellow_flower_closeup.mp4", ",", "white_flower.mp4", ",", "white_fuzzy_flower.mp4", ",", "white_lily.mp4", ",", "white_sideways.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
