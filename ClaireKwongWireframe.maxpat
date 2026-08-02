@@ -9,7 +9,8 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1660.0, 983.0 ],
+        "rect": [ 670.0, 87.0, 1240.0, 959.0 ],
+        "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
@@ -504,7 +505,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___aivisura", ",", "___as_trackers", ",", "___miles", ",", "aivi_old", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "paint", ",", "ubersketch" ],
+                                    "items": [ "___as_trackers", ",", "___miles", ",", "aivi_old", ",", "aivi_sst", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "paint", ",", "space", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -580,7 +581,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "03_cactus_flower.mp4", ",", "06_eyeblink.mov", ",", "black_white_flowers.mp4", ",", "blue_flower.mp4", ",", "blue_flowers_many.mp4", ",", "pink_6_pointed.mp4", ",", "pink_hot_2.mp4", ",", "pink_lilies_2.mp4", ",", "pink_lily.mp4", ",", "pink_rose.mp4", ",", "red_rose.mp4", ",", "red_yellow_flower.mp4", ",", "red_yellow_flower_closeup.mp4", ",", "white_flower.mp4", ",", "white_fuzzy_flower.mp4", ",", "white_lily.mp4", ",", "white_sideways.mp4" ],
+                                    "items": [ "07_blank.png", ",", "07_Guillotine1.png", ",", "07_Guillotine2.png", ",", "08 periphery.mp4", ",", "09 wind rider.mp4", ",", "10 yuri on ice.mp4", ",", "11 love like you.mp4", ",", "12 lonely rolling star.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
