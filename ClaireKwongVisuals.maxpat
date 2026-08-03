@@ -100,7 +100,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 1305.0, 586.6461025000006, 20.0, 140.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1305.0, 585.0, 20.0, 140.0 ],
+                    "presentation_rect": [ 559.0, 319.76760927486043, 20.0, 140.0 ],
                     "size": 1.0
                 }
             },
@@ -115,7 +115,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 2552.0, -4.0, 20.0, 140.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2552.0, -4.0, 20.0, 140.0 ],
+                    "presentation_rect": [ 572.199999988079, 13.0, 20.0, 140.0 ],
                     "size": 1.0
                 }
             },
