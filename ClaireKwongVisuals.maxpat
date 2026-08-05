@@ -64,7 +64,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1280.1660160000001, 526.5357072499999, 47.0, 22.0 ],
-                    "text": "ctlin 80"
+                    "text": "ctlin 78"
                 }
             },
             {
@@ -86,7 +86,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 2602.0, -14.613769999999988, 47.0, 22.0 ],
-                    "text": "ctlin 79"
+                    "text": "ctlin 77"
                 }
             },
             {
@@ -1321,7 +1321,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1689.0, 413.0, 47.0, 22.0 ],
-                    "text": "ctlin 78"
+                    "text": "ctlin 80"
                 }
             },
             {
@@ -1343,7 +1343,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1581.0, 181.2200332499998, 47.0, 22.0 ],
-                    "text": "ctlin 77"
+                    "text": "ctlin 79"
                 }
             },
             {
@@ -19084,6 +19084,14 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
