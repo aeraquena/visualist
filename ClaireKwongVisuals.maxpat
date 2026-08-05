@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 2072.0, 959.0 ],
+        "rect": [ 273.0, 87.0, 1705.0, 959.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -9299,7 +9299,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "_aivi_sst", ",", "_miles", ",", "aivi_old", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "as_trackers", ",", "love_like_you", ",", "paint", ",", "space", ",", "ubersketch" ],
+                                    "items": [ "_aivi_sst", ",", "_as_trackers", ",", "_miles", ",", "aivi_old", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "miles_old", ",", "paint", ",", "space", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -9375,7 +9375,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snow_branch.mp4", ",", "04_snowflakes.mp4", ",", "05_pink_6_pointed.mp4", ",", "05_pink_hot_2.mp4", ",", "05_pink_lilies_2.mp4", ",", "05_pink_lily.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode.mp4", ",", "11_white_lily.mp4", ",", "11_yoyo.mp4", ",", "12_whirl0.mov", ",", "12_whirl1.mov", ",", "12_whirl2.mov", ",", "12_whirl3.mov", ",", "12_whirl4.mov", ",", "12_whirl_close.mov", ",", "13_dance_multiple.mp4", ",", "13_dance_pink.mp4", ",", "13_dance_white.mp4", ",", "13_fire_blast.mp4", ",", "13_fire_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion2.mp4", ",", "15_water.mp4", ",", "15_waves.mp4", ",", "16_forest.mp4", ",", "17_yuri_on_ice_bi.mp4", ",", "18_katamari_short.mp4", ",", "ballet_body.mp4" ],
+                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_pink_lilies_2.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode.mp4", ",", "11_yoyo2.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_forest.mp4", ",", "17_yuri_on_ice_bi.mp4", ",", "18_katamari_short.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -10183,7 +10183,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "_aivi_sst", ",", "_miles", ",", "aivi_old", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "as_trackers", ",", "love_like_you", ",", "paint", ",", "space", ",", "ubersketch" ],
+                                    "items": [ "_aivi_sst", ",", "_as_trackers", ",", "_miles", ",", "aivi_old", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "miles_old", ",", "paint", ",", "space", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -10259,7 +10259,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snow_branch.mp4", ",", "04_snowflakes.mp4", ",", "05_pink_6_pointed.mp4", ",", "05_pink_hot_2.mp4", ",", "05_pink_lilies_2.mp4", ",", "05_pink_lily.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode.mp4", ",", "11_white_lily.mp4", ",", "11_yoyo.mp4", ",", "12_whirl0.mov", ",", "12_whirl1.mov", ",", "12_whirl2.mov", ",", "12_whirl3.mov", ",", "12_whirl4.mov", ",", "12_whirl_close.mov", ",", "13_dance_multiple.mp4", ",", "13_dance_pink.mp4", ",", "13_dance_white.mp4", ",", "13_fire_blast.mp4", ",", "13_fire_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion2.mp4", ",", "15_water.mp4", ",", "15_waves.mp4", ",", "16_forest.mp4", ",", "17_yuri_on_ice_bi.mp4", ",", "18_katamari_short.mp4", ",", "ballet_body.mp4" ],
+                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_pink_lilies_2.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode.mp4", ",", "11_yoyo2.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_forest.mp4", ",", "17_yuri_on_ice_bi.mp4", ",", "18_katamari_short.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -13511,8 +13511,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 109.5, 36.407852000000005, 92.0, 22.0 ],
-                                    "text": "loadmess 1000"
+                                    "patching_rect": [ 109.5, 36.407852000000005, 83.0, 22.0 ],
+                                    "text": "loadmess 100"
                                 }
                             },
                             {
@@ -15902,7 +15902,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "bang" ],
-                                    "patching_rect": [ 275.25, 49.0, 60.0, 22.0 ],
+                                    "patching_rect": [ 161.0, 6.0, 60.0, 22.0 ],
                                     "text": "loadbang"
                                 }
                             },
@@ -15990,8 +15990,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-346", 0 ],
-                                    "hidden": 1,
+                                    "destination": [ "obj-360", 0 ],
                                     "source": [ "obj-334", 0 ]
                                 }
                             },
@@ -19085,14 +19084,6 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,

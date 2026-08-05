@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 388.0, 272.0, 89.0, 22.0 ],
+                    "text": "loadmess vol 0"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-87",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -505,7 +516,7 @@
                             {
                                 "box": {
                                     "id": "obj-6",
-                                    "items": [ "___as_trackers", ",", "___miles", ",", "aivi_old", ",", "aivi_sst", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "paint", ",", "space", ",", "ubersketch" ],
+                                    "items": [ "_aivi_sst", ",", "_as_trackers", ",", "_miles", ",", "aivi_old", ",", "aivi_sst_all", ",", "aivi_sst_unprocessed", ",", "aivisura", ",", "aivisura_love_like_you", ",", "aivisura_west", ",", "love_like_you", ",", "miles_old", ",", "paint", ",", "space", ",", "ubersketch" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -581,7 +592,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "07_blank.png", ",", "07_Guillotine1.png", ",", "07_Guillotine2.png", ",", "08 periphery.mp4", ",", "09 wind rider.mp4", ",", "10 yuri on ice.mp4", ",", "11 love like you.mp4", ",", "12 lonely rolling star.mp4" ],
+                                    "items": [ "01_red_yellow_flower.mp4", ",", "01_red_yellow_flower_closeup.mp4", ",", "01_satellite.mp4", ",", "01_z_space_satellite_toward_earth.mp4", ",", "01_z_space_satellite_zoom_480.mov", ",", "02_hyrule_castle.mp4", ",", "02_pink_6_pointed.mp4", ",", "02_pink_hot_2.mp4", ",", "02_pink_lilies_2.mp4", ",", "02_pink_lily.mp4", ",", "03_white_flower.mp4", ",", "03_white_fuzzy_flower.mp4", ",", "03_white_lily.mp4", ",", "03_white_sideways.mp4", ",", "05_bowling.mp4", ",", "05_bowling_slomo.mp4", ",", "05_wii_bowling.mp4", ",", "06_eyeblink.mov", ",", "07_earth.mp4", ",", "07_earth_surface.mp4", ",", "07_z_space_earth.mp4", ",", "07_z_space_earth_surface_480.mov", ",", "08__many_white_flower.mp4", ",", "08_blue_flower.mp4", ",", "08_blue_flowers_many.mp4", ",", "08_many_pink_flower.mp4", ",", "08_purple_flower_multiple.mp4", ",", "09_mirrors_edge.mp4", ",", "dahlia_multiple.mp4", ",", "flower_multiple_white.mp4", ",", "multiple_blooms_unprocessed.mp4", ",", "pink_rose.mp4", ",", "red_rose.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -1408,8 +1419,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "jit_gl_texture", "" ],
-                    "patching_rect": [ 514.5, 303.0, 203.0, 22.0 ],
-                    "text": "jit.movie myworld @output_texture 1"
+                    "patching_rect": [ 514.5, 303.0, 263.0, 22.0 ],
+                    "text": "jit.movie 1920 1080 myworld @output_texture 1"
                 }
             },
             {
@@ -1928,6 +1939,12 @@
                 "patchline": {
                     "destination": [ "obj-29", 0 ],
                     "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-24", 0 ]
                 }
             },
             {
