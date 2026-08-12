@@ -9847,6 +9847,17 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-24",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ -34.0, -34.0, 70.0, 22.0 ],
+                                    "text": "loadmess 1"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-15",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -10257,7 +10268,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "01_satellite.mp4", ",", "02_fire.mp4", ",", "03_golden_flower_2x.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_1_dandelion.mp4", ",", "14_2_dandelion_many.mp4", ",", "14_3_dandelion2.mp4", ",", "14_4_dandelion_many.mp4", ",", "14_5_satellite.mp4", ",", "15_water.mp4", ",", "16_yuri_on_ice_bi.mp4", ",", "17_katamari_short.mp4", ",", "18_red_rose.mp4" ],
+                                    "items": [ "11_yoyo_2x.mp4", ",", "13_fire.mp4", ",", "14 wind rider 2026.mp4", ",", "15 one and only 2026.mp4", ",", "16 mabe village 2026.mp4", ",", "17 yuri on ice 2026.mp4", ",", "18 lonely rolling star 2026.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -10486,6 +10497,12 @@
                                     "destination": [ "obj-21", 0 ],
                                     "midpoints": [ 292.5, 247.0, 311.0, 247.0, 311.0, 225.0, 329.5, 225.0 ],
                                     "source": [ "obj-23", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-24", 0 ]
                                 }
                             },
                             {
