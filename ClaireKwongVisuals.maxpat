@@ -9376,7 +9376,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_fly.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_yuri_on_ice_bi.mp4", ",", "17_katamari_short.mp4", ",", "18_red_rose.mp4" ],
+                                    "items": [ "01_moon.mp4", ",", "01_satellite.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "03_golden_flower_2x.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_1_dandelion.mp4", ",", "14_2_dandelion_many.mp4", ",", "14_3_dandelion2.mp4", ",", "14_4_dandelion_many.mp4", ",", "14_5_satellite.mp4", ",", "15_water.mp4", ",", "16_yuri_on_ice_bi.mp4", ",", "17_katamari_short.mp4", ",", "18_red_rose.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -10285,7 +10285,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_fly.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_yuri_on_ice_bi.mp4", ",", "17_katamari_short.mp4", ",", "18_red_rose.mp4" ],
+                                    "items": [ "00_blank.png", ",", "01_if_i_could.png", ",", "02_when_i_see.png", ",", "03_love_like_you.png", ",", "04_i_always_thought.png", ",", "05_look_at_you.png", ",", "06_if_i_could.png", ",", "07_when_i_see.png", ",", "08_love_like_you.png", ",", "09_love_me_like_you.png" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -16488,8 +16488,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 4119.0, 50.0, 351.0, 22.0 ],
-                    "text": "jit.window visualist @fsmenubar 0 @pos -25 0 @size 1920 1080"
+                    "patching_rect": [ 4119.0, 50.0, 413.0, 22.0 ],
+                    "text": "jit.window visualist @fsmenubar 0 @pos -25 0 @size 1920 1080 @screen 0"
                 }
             },
             {
