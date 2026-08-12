@@ -188,7 +188,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1280.1660160000001, 526.5357072499999, 47.0, 22.0 ],
-                    "text": "ctlin 78"
+                    "text": "ctlin 79"
                 }
             },
             {
@@ -1467,7 +1467,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
                     "patching_rect": [ 1581.0, 181.2200332499998, 47.0, 22.0 ],
-                    "text": "ctlin 79"
+                    "text": "ctlin 78"
                 }
             },
             {
@@ -9376,7 +9376,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_fly.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_forest.mp4", ",", "17_yuri_on_ice_bi.mp4", ",", "18_katamari_short.mp4" ],
+                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_fly.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_yuri_on_ice_bi.mp4", ",", "17_katamari_short.mp4", ",", "18_red_rose.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -10285,7 +10285,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
-                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_fly.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_forest.mp4", ",", "17_yuri_on_ice_bi.mp4", ",", "18_katamari_short.mp4" ],
+                                    "items": [ "01_moon.mp4", ",", "02_fire.mp4", ",", "03_golden_flower.mp4", ",", "04_snowflakes.mp4", ",", "05_purple_flower_multiple.mp4", ",", "06_pink_flower_orange_paint.mp4", ",", "07_plant_growing.mp4", ",", "08_venus_flytrap_1.mp4", ",", "08_venus_flytrap_2.mp4", ",", "09_flower_slash.mp4", ",", "10_rose_explode_fixed.mp4", ",", "11_white_lily.mp4", ",", "12_dance_above.mp4", ",", "13_sword.mp4", ",", "14_dandelion.mp4", ",", "14_dandelion_fly.mp4", ",", "14_dandelion_many.mp4", ",", "15_water.mp4", ",", "16_yuri_on_ice_bi.mp4", ",", "17_katamari_short.mp4", ",", "18_red_rose.mp4" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -19234,6 +19234,14 @@
             "obj-6::obj-108": [ "flonum[3]", "flonum[2]", 0 ],
             "obj-6::obj-112": [ "flonum[4]", "flonum[1]", 0 ],
             "obj-6::obj-118": [ "flonum[5]", "flonum", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
